@@ -1,6 +1,6 @@
 {
   "extends": [
-    ":semanticCommitTypeAll(chore)",
+    ":semanticCommitTypeAll(chore)"
   ],
   "prHourlyLimit": 6,
   "semanticCommits": true,
