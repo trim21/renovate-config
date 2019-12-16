@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "config:base",
+    ":masterIssue",
+    "schedule:weekly"
+  ],
+  "prHourlyLimit": 6,
+  "labels": [
+    "dependencies"
+  ]
+}
