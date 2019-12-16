@@ -1,7 +1,5 @@
 {
   "extends": [],
-  "prHourlyLimit": 6,
-  "semanticCommits": true,
   "packageRules": [
     {
       "groupName": "deps-build",
