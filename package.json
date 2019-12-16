@@ -1,0 +1,10 @@
+{
+    "name": "renovate-config-fastcore",
+    "version": "0.0.1",
+    ...
+    "renovate-config": {
+      "default": {
+        "extends": ["config:base", "schedule:nonOfficeHours"]
+      }
+    }
+  }
