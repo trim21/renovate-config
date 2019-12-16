@@ -2,8 +2,7 @@
   "extends": [
     "config:base",
     ":masterIssue",
-    ":semanticCommitTypeAll(chore)",
-    "schedule:weekly"
+    ":semanticCommitTypeAll(chore)"
   ],
   "prHourlyLimit": 6,
   "assignees": [
