@@ -6,7 +6,7 @@
   ],
   "prHourlyLimit": 6,
   "assignees": [
-    "Trim21"
+    "@Trim21"
   ],
   "labels": [
     "dependencies"
