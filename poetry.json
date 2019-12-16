@@ -1,8 +1,6 @@
 {
   "extends": [
-    "config:base",
     ":semanticCommitTypeAll(chore)",
-    ":masterIssue"
   ],
   "prHourlyLimit": 6,
   "semanticCommits": true,

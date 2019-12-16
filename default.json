@@ -5,6 +5,9 @@
     "schedule:weekly"
   ],
   "prHourlyLimit": 6,
+  "assignees": [
+    "Trim21"
+  ],
   "labels": [
     "dependencies"
   ]
