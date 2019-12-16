@@ -1,6 +1,5 @@
 {
-  "extends": [
-  ],
+  "extends": [],
   "prHourlyLimit": 6,
   "semanticCommits": true,
   "packageRules": [

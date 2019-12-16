@@ -2,12 +2,14 @@
   "extends": [
     "config:base",
     ":masterIssue",
+    ":semanticCommitTypeAll(chore)",
     "schedule:weekly"
   ],
   "prHourlyLimit": 6,
   "assignees": [
     "@Trim21"
   ],
+  "semanticCommits": true,
   "labels": [
     "dependencies"
   ]
