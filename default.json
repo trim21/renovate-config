@@ -8,6 +8,7 @@
   "assignees": [
     "@Trim21"
   ],
+  "timezone": "Asia/Shanghai",
   "semanticCommits": true,
   "labels": [
     "dependencies"
