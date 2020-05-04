@@ -11,7 +11,7 @@ def main():
         files.append(os.path.join("src", file))
     print(files)
     pkg["renovate-config"] = {
-        fs.split(".")[0].split("/")[0]: load_json(fs) for fs in files
+        fs.split(".")[0].split("/")[-1]: load_json(fs) for fs in files
     }
     with open("package.json", "w+", encoding="utf-8") as f:
         json.dump(pkg, f, indent=2, ensure_ascii=False)
