@@ -1,15 +1,5 @@
 {
-  "extends": [],
   "packageRules": [
-    {
-      "groupName": "deps-build",
-      "managers": [
-        "dockerfile",
-        "circleci"
-      ],
-      "versionScheme": "pep440",
-      "semanticCommitScope": "deps-build"
-    },
     {
       "groupName": "deps-prod",
       "depTypeList": [

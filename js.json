@@ -1,0 +1,14 @@
+{
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "groupName": "dependencies",
+      "depTypeList": [
+        "dependencies",
+        "devDependencies"
+      ]
+    }
+  ]
+}
