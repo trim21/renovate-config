@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "renovate-config-validator *.js"
+    "postversion": "git push --follow-tags"
   },
   "files": [
     "*.json"

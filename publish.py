@@ -4,11 +4,11 @@ import os.path
 
 
 def main():
-    with open("src/package.json", encoding="utf8") as f:
+    with open("package.json", encoding="utf8") as f:
         pkg = json.load(f)
     files = []
     for file in os.listdir("./"):
-        if file.endswith(".json"):
+        if file.endswith(".json") and "package.json" not in file:
             files.append(file)
 
     pkg["renovate-config"] = {fs.split(".")[0]: load_json(fs) for fs in files}
