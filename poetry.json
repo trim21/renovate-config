@@ -1,4 +1,7 @@
 {
+  "enabledManagers": [
+    "poetry"
+  ],
   "packageRules": [
     {
       "groupName": "deps-prod",
