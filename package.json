@@ -1,6 +1,6 @@
 {
   "name": "@trim21/renovate-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "no",
   "main": "index.js",
   "publishConfig": {
