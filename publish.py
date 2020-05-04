@@ -7,10 +7,9 @@ def main():
     with open("package.json", encoding="utf8") as f:
         pkg = json.load(f)
     files = []
-    for file in os.listdir("./"):
-        if file.endswith(".json") and "package.json" not in file:
-            files.append(file)
-
+    for file in os.listdir("./src"):
+        files.append(os.path.join("src", file))
+    print(files)
     pkg["renovate-config"] = {fs.split(".")[0]: load_json(fs) for fs in files}
     with open("package.json", "w+", encoding="utf-8") as f:
         json.dump(pkg, f, indent=2, ensure_ascii=False)
