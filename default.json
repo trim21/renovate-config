@@ -4,7 +4,7 @@
     ":masterIssue",
     ":semanticCommitTypeAll(build)"
   ],
-  "prHourlyLimit": 6,
+  "prHourlyLimit": 0,
   "assignees": [
     "@Trim21"
   ],
