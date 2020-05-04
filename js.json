@@ -1,4 +1,7 @@
 {
+  "enabledManagers": [
+    "npm"
+  ],
   "lockFileMaintenance": {
     "enabled": true
   },
