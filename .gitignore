@@ -6,7 +6,6 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-
 ### Example user template template
 ### Example user template
 
@@ -15,3 +14,5 @@
 *.iml
 out
 gen
+
+node_modules

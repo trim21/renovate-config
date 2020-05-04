@@ -1,0 +1,25 @@
+{
+  "name": "@trim21/renovate-config",
+  "version": "0.0.1",
+  "description": "no",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "renovate-config-validator *.js"
+  },
+  "files": [
+    "*.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trim21/renovate-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trim21/renovate-config/issues"
+  },
+  "homepage": "https://github.com/Trim21/renovate-config#readme"
+}
