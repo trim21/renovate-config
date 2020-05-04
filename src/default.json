@@ -13,6 +13,5 @@
   "labels": [
     "dependencies"
   ],
-  "separateMinorPatch": false,
-  "separateMajorMinor": false
+  "separateMinorPatch": false
 }
