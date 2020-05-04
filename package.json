@@ -2,7 +2,7 @@
   "name": "@trim21/renovate-config",
   "version": "0.0.16",
   "description": "no",
-  "main": "index.js",
+  "main": "package.json",
   "publishConfig": {
     "access": "public"
   },
@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/Trim21/renovate-config/issues"
   },
+  "renovate": {},
   "homepage": "https://github.com/Trim21/renovate-config#readme"
 }
