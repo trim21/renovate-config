@@ -12,5 +12,7 @@
   "semanticCommits": true,
   "labels": [
     "dependencies"
-  ]
+  ],
+  "separateMinorPatch": false,
+  "separateMajorMinor": false
 }
