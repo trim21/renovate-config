@@ -1,6 +1,6 @@
 {
   "name": "@trim21/renovate-config",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "no",
   "main": "package.json",
   "publishConfig": {
