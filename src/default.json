@@ -9,6 +9,7 @@
     "@Trim21"
   ],
   "timezone": "Asia/Shanghai",
+  "updateNotScheduled": false,
   "semanticCommits": true,
   "labels": [
     "dependencies"
