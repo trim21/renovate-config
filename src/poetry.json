@@ -1,5 +1,14 @@
 {
+  "poetry": {
+    "enabled": true
+  },
   "pip_setup": {
+    "enabled": false
+  },
+  "pip_requirements": {
+    "enabled": false
+  },
+  "pipenv": {
     "enabled": false
   },
   "packageRules": [
