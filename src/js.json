@@ -3,6 +3,9 @@
     "npm"
   ],
   "lockFileMaintenance": {
+    "extends": [
+      "@trim21:monthly"
+    ],
     "enabled": true
   },
   "packageRules": [
