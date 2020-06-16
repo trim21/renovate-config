@@ -30,19 +30,6 @@
         "poetry"
       ],
       "extends": [
-        ":semanticCommitTypeAll(chore)"
-      ],
-      "groupName": "deps-dev",
-      "depTypeList": [
-        "dev-dependencies"
-      ],
-      "semanticCommitScope": "dev"
-    },
-    {
-      "managers": [
-        "poetry"
-      ],
-      "extends": [
         ":semanticCommitTypeAll(build)"
       ],
       "groupName": "deps-docs",
@@ -51,6 +38,20 @@
         "^sphinx"
       ],
       "rangeStrategy": "pin"
+    },
+    {
+      "managers": [
+        "poetry"
+      ],
+      "extends": [
+        ":semanticCommitTypeAll(chore)"
+      ],
+      "groupName": "deps-dev",
+      "depTypeList": [
+        "dev-dependencies"
+      ],
+      "semanticCommitScope": "dev"
     }
+
   ]
 }
