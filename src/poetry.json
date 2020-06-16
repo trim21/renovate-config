@@ -39,12 +39,13 @@
       "managers": [
         "poetry"
       ],
-      "groupName": "deps-dev",
+      "extends": [
+        ":semanticCommitTypeAll(chore)"
+      ],
+      "groupName": "dev",
       "depTypeList": [
         "dev-dependencies"
-      ],
-      "semanticCommitType": "chore",
-      "semanticCommitScope": "dev"
+      ]
     }
   ]
 }
