@@ -42,10 +42,11 @@
       "extends": [
         ":semanticCommitTypeAll(chore)"
       ],
-      "groupName": "dev",
+      "groupName": "deps-dev",
       "depTypeList": [
         "dev-dependencies"
-      ]
+      ],
+      "semanticCommitScope": "dev"
     }
   ]
 }
