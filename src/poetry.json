@@ -13,6 +13,9 @@
   },
   "packageRules": [
     {
+      "managers": [
+        "poetry"
+      ],
       "groupName": "deps-prod",
       "depTypeList": [
         "dependencies"
@@ -23,6 +26,9 @@
       "semanticCommitScope": "deps"
     },
     {
+      "managers": [
+        "poetry"
+      ],
       "extends": [
         ":semanticCommitTypeAll(chore)"
       ],
@@ -33,6 +39,9 @@
       "semanticCommitScope": "dev"
     },
     {
+      "managers": [
+        "poetry"
+      ],
       "extends": [
         ":semanticCommitTypeAll(build)"
       ],
