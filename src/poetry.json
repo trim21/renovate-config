@@ -13,6 +13,14 @@
   },
   "packageRules": [
     {
+      "groupName": "deps-docs",
+      "semanticCommitScope": "docs",
+      "packagePatterns": [
+        "^sphinx"
+      ],
+      "rangeStrategy": "pin"
+    },
+    {
       "groupName": "deps-prod",
       "depTypeList": [
         "dependencies"
