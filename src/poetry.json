@@ -13,17 +13,6 @@
   },
   "packageRules": [
     {
-      "extends": [
-        ":semanticCommitTypeAll(build)"
-      ],
-      "groupName": "deps-docs",
-      "semanticCommitScope": "docs",
-      "packagePatterns": [
-        "^sphinx"
-      ],
-      "rangeStrategy": "pin"
-    },
-    {
       "groupName": "deps-prod",
       "depTypeList": [
         "dependencies"
@@ -39,6 +28,17 @@
         "dev-dependencies"
       ],
       "semanticCommitScope": "dev"
+    },
+    {
+      "extends": [
+        ":semanticCommitTypeAll(build)"
+      ],
+      "groupName": "deps-docs",
+      "semanticCommitScope": "docs",
+      "packagePatterns": [
+        "^sphinx"
+      ],
+      "rangeStrategy": "pin"
     }
   ]
 }
