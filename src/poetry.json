@@ -33,6 +33,9 @@
       "groupName": "deps-docs",
       "semanticCommitType": "build",
       "semanticCommitScope": "docs",
+      "depTypeList": [
+        "dependencies"
+      ],
       "packagePatterns": [
         "^sphinx"
       ]
