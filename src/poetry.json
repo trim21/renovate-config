@@ -20,11 +20,14 @@
       "semanticCommitScope": "deps"
     },
     {
+      "extends": [
+        ":semanticCommitTypeAll(chore)"
+      ],
       "groupName": "deps-dev",
       "depTypeList": [
         "dev-dependencies"
       ],
-      "semanticCommitScope": "deps-dev"
+      "semanticCommitScope": "dev"
     }
   ]
 }
