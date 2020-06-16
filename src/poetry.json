@@ -17,6 +17,9 @@
       "depTypeList": [
         "dependencies"
       ],
+      "excludePackagePatterns": [
+        "^sphinx"
+      ],
       "semanticCommitScope": "deps"
     },
     {
