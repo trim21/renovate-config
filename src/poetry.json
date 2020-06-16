@@ -16,6 +16,7 @@
       "managers": [
         "poetry"
       ],
+      "semanticCommitType": "build",
       "groupName": "deps-prod",
       "depTypeList": [
         "dependencies"
@@ -30,6 +31,7 @@
         "poetry"
       ],
       "groupName": "deps-docs",
+      "semanticCommitType": "build",
       "semanticCommitScope": "docs",
       "packagePatterns": [
         "^sphinx"
@@ -39,9 +41,7 @@
       "managers": [
         "poetry"
       ],
-      "extends": [
-        ":semanticCommitTypeAll(chore)"
-      ],
+      "semanticCommitType": "chore",
       "groupName": "deps-dev",
       "depTypeList": [
         "dev-dependencies"
