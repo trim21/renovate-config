@@ -13,6 +13,9 @@
   },
   "packageRules": [
     {
+      "extends": [
+        ":semanticCommitTypeAll(build)"
+      ],
       "groupName": "deps-docs",
       "semanticCommitScope": "docs",
       "packagePatterns": [
