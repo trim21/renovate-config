@@ -36,8 +36,7 @@
       "semanticCommitScope": "docs",
       "packagePatterns": [
         "^sphinx"
-      ],
-      "rangeStrategy": "pin"
+      ]
     },
     {
       "managers": [
