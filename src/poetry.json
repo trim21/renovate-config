@@ -37,20 +37,6 @@
         "dev-dependencies"
       ],
       "semanticCommitScope": "dev"
-    },
-    {
-      "managers": [
-        "poetry"
-      ],
-      "extends": [
-        ":semanticCommitTypeAll(build)"
-      ],
-      "groupName": "deps-docs",
-      "semanticCommitScope": "docs",
-      "packagePatterns": [
-        "^sphinx"
-      ],
-      "rangeStrategy": "pin"
     }
   ]
 }
