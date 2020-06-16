@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "groupName": "deps-docs",
+      "semanticCommitScope": "docs",
+      "packagePatterns": [
+        "^sphinx"
+      ],
+      "rangeStrategy": "pin"
+    }
+  ]
+}
