@@ -1,0 +1,20 @@
+{
+  "enabledManagers": [
+    "npm"
+  ],
+  "lockFileMaintenance": {
+    "extends": [
+      "@trim21:monthly"
+    ],
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "groupName": "deps",
+      "depTypeList": [
+        "dependencies",
+        "devDependencies"
+      ]
+    }
+  ]
+}

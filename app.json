@@ -1,0 +1,6 @@
+{
+  "rangeStrategy": "pin",
+  "pin": {
+    "automerge": true
+  }
+}
