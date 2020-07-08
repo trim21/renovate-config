@@ -21,10 +21,10 @@
   "bugs": {
     "url": "https://github.com/Trim21/renovate-config/issues"
   },
-  "renovate": {
+  "renovate-config": {
     "default": {
       "extends": [
-        "github>Trim21/renovate-config:default"
+        "github>Trim21/renovate-config"
       ]
     },
     "poetry": {
