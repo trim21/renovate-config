@@ -1,4 +1,10 @@
 {
+  "lockFileMaintenance": {
+    "extends": [
+      "@trim21:monthly"
+    ],
+    "enabled": true
+  },
   "poetry": {
     "enabled": true
   },
