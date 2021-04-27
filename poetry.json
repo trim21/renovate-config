@@ -17,14 +17,17 @@
   "pipenv": {
     "enabled": false
   },
+  "setup-cfg": {
+    "enabled": false
+  },
   "packageRules": [
     {
-      "managers": [
+      "matchManagers": [
         "poetry"
       ],
       "semanticCommitType": "build",
       "groupName": "deps-prod",
-      "depTypeList": [
+      "matchDepTypes": [
         "dependencies"
       ],
       "excludePackagePatterns": [
@@ -33,26 +36,26 @@
       "semanticCommitScope": "deps"
     },
     {
-      "managers": [
+      "matchManagers": [
         "poetry"
       ],
       "groupName": "deps-docs",
       "semanticCommitType": "build",
       "semanticCommitScope": "docs",
-      "depTypeList": [
+      "matchDepTypes": [
         "dependencies"
       ],
-      "packagePatterns": [
-        "^sphinx"
+      "matchPackagePrefixes": [
+        "sphinx"
       ]
     },
     {
-      "managers": [
+      "matchManagers": [
         "poetry"
       ],
       "semanticCommitType": "chore",
       "groupName": "deps-dev",
-      "depTypeList": [
+      "matchDepTypes": [
         "dev-dependencies"
       ],
       "semanticCommitScope": "dev"

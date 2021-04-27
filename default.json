@@ -7,7 +7,7 @@
     "@Trim21"
   ],
   "timezone": "Asia/Shanghai",
-  "semanticCommits": true,
+  "semanticCommits": "enabled",
   "labels": [
     "dependencies"
   ],
