@@ -11,8 +11,8 @@
   "packageRules": [
     {
       "matchPackageNames": "^node$",
-      "matchFiles": [
-        "**/package.json"
+      "matchDepTypes": [
+        "engines"
       ],
       "enabled": false
     },
