@@ -10,7 +10,6 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": "^node$",
       "matchDepTypes": [
         "engines"
       ],
