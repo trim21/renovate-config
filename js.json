@@ -4,7 +4,7 @@
   ],
   "lockFileMaintenance": {
     "extends": [
-      "@trim21:monthly"
+      "github>Trim21/renovate-config:monthly"
     ],
     "enabled": true
   },
