@@ -10,6 +10,13 @@
   },
   "packageRules": [
     {
+      "matchPackageNames": "^node$",
+      "matchFiles": [
+        "**/package.json"
+      ],
+      "enabled": false
+    },
+    {
       "groupName": "deps",
       "matchDepTypes": [
         "dependencies",
