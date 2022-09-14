@@ -10,9 +10,6 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": [
-        "nodejs/node"
-      ],
       "matchDepTypes": [
         "engines"
       ],
