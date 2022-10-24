@@ -1,7 +1,4 @@
 {
-  "enabledManagers": [
-    "npm"
-  ],
   "lockFileMaintenance": {
     "extends": [
       "github>Trim21/renovate-config:monthly"
