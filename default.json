@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":masterIssue"
+    ":dependencyDashboard"
   ],
   "prHourlyLimit": 0,
   "assignees": [
