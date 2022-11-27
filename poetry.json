@@ -28,6 +28,13 @@
       "matchDepTypes": [
         "dependencies"
       ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "pin",
+        "pinDigest"
+      ],
       "semanticCommitScope": "deps"
     },
     {
@@ -36,6 +43,13 @@
         "poetry"
       ],
       "semanticCommitType": "build",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "pin",
+        "pinDigest"
+      ],
       "matchPackagePrefixes": [
         "flake8"
       ]
@@ -46,6 +60,13 @@
         "poetry"
       ],
       "semanticCommitType": "build",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "pin",
+        "pinDigest"
+      ],
       "matchPackagePrefixes": [
         "sphinx"
       ]
@@ -58,6 +79,13 @@
       "semanticCommitType": "chore",
       "matchDepTypes": [
         "dev-dependencies"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "pin",
+        "pinDigest"
       ],
       "semanticCommitScope": "dev",
       "rangeStrategy": "pin"
