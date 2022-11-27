@@ -10,7 +10,7 @@ files.filter(x => x !== "package.json" && x.endsWith(".json")).forEach(x => {
     stdio: "inherit",
     env: {
       PATH: process.env.PATH ?? process.env.Path,
-      RENOVATE_CONFIG_FILE: path.resolve(".", x),
+      RENOVATE_CONFIG_FILE: path.resolve(x),
     },
   });
 });
