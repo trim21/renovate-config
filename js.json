@@ -1,9 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "lockFileMaintenance": {
-    "schedule": [
-      "before 16:00 on the 20th day of the month"
-    ],
+    "semanticCommitType": "build",
     "enabled": true
   },
   "packageRules": [
