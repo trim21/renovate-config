@@ -11,5 +11,14 @@
   "labels": [
     "dependencies"
   ],
-  "separateMinorPatch": false
+  "separateMinorPatch": false,
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "semanticCommitScope": "",
+      "semanticCommitType": "ci"
+    }
+  ]
 }
