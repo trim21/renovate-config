@@ -59,7 +59,8 @@
       "matchDepTypes": [
         "dev-dependencies"
       ],
-      "semanticCommitScope": "dev"
+      "semanticCommitScope": "dev",
+      "rangeStrategy": "pin"
     }
   ]
 }
