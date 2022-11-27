@@ -23,12 +23,9 @@
         "poetry"
       ],
       "semanticCommitType": "build",
-      "groupName": "deps-prod",
+      "groupName": "deps",
       "matchDepTypes": [
         "dependencies"
-      ],
-      "excludePackagePatterns": [
-        "^sphinx"
       ],
       "semanticCommitScope": "deps"
     },
@@ -36,9 +33,21 @@
       "matchManagers": [
         "poetry"
       ],
-      "groupName": "deps-docs",
+      "groupName": "flake8",
       "semanticCommitType": "build",
-      "semanticCommitScope": "docs",
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchPackagePrefixes": [
+        "flake8"
+      ]
+    },
+    {
+      "matchManagers": [
+        "poetry"
+      ],
+      "groupName": "sphinx",
+      "semanticCommitType": "build",
       "matchDepTypes": [
         "dependencies"
       ],
