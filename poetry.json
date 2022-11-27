@@ -1,5 +1,6 @@
 {
   "lockFileMaintenance": {
+    "semanticCommitType": "build",
     "enabled": true
   },
   "poetry": {
@@ -35,9 +36,6 @@
       ],
       "groupName": "flake8",
       "semanticCommitType": "build",
-      "matchDepTypes": [
-        "dependencies"
-      ],
       "matchPackagePrefixes": [
         "flake8"
       ]
@@ -48,9 +46,6 @@
       ],
       "groupName": "sphinx",
       "semanticCommitType": "build",
-      "matchDepTypes": [
-        "dependencies"
-      ],
       "matchPackagePrefixes": [
         "sphinx"
       ]
