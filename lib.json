@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "depTypeList": [
+        "dev-dependencies"
+      ],
+      "rangeStrategy": "pin"
+    }
+  ]
+}
