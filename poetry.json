@@ -42,7 +42,7 @@
       "matchManagers": [
         "poetry"
       ],
-      "semanticCommitType": "build",
+      "semanticCommitType": "style",
       "matchUpdateTypes": [
         "minor",
         "patch",
