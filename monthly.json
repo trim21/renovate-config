@@ -1,5 +1,10 @@
 {
   "schedule": [
     "before 16:00 on the 15th day of the month"
-  ]
+  ],
+  "lockFileMaintenance": {
+    "schedule": [
+      "before 16:00 on the 20th day of the month"
+    ]
+  }
 }
