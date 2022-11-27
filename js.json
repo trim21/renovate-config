@@ -13,6 +13,15 @@
       "enabled": false
     },
     {
+      "matchManagers": ["npm"],
+      "semanticCommitType": "build"
+    },
+    {
+      "groupName": "eslint",
+      "matchPackagePrefixes": ["@typescript-eslint/", "eslint"],
+      "semanticCommitType": "style"
+    },
+    {
       "groupName": "deps",
       "matchDepTypes": [
         "dependencies",
