@@ -51,11 +51,11 @@
       ]
     },
     {
+      "groupName": "deps-dev",
       "matchManagers": [
         "poetry"
       ],
       "semanticCommitType": "chore",
-      "groupName": "deps-dev",
       "matchDepTypes": [
         "dev-dependencies"
       ],
