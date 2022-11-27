@@ -20,31 +20,31 @@
   },
   "packageRules": [
     {
+      "groupName": "deps",
       "matchManagers": [
         "poetry"
       ],
       "semanticCommitType": "build",
-      "groupName": "deps",
       "matchDepTypes": [
         "dependencies"
       ],
       "semanticCommitScope": "deps"
     },
     {
+      "groupName": "flake8",
       "matchManagers": [
         "poetry"
       ],
-      "groupName": "flake8",
       "semanticCommitType": "build",
       "matchPackagePrefixes": [
         "flake8"
       ]
     },
     {
+      "groupName": "sphinx",
       "matchManagers": [
         "poetry"
       ],
-      "groupName": "sphinx",
       "semanticCommitType": "build",
       "matchPackagePrefixes": [
         "sphinx"
