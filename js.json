@@ -18,6 +18,7 @@
     {
       "groupName": "eslint",
       "matchPackagePrefixes": ["@typescript-eslint/", "eslint"],
+      "matchPackageNames": ["lint-staged", "husky", "prettier"],
       "semanticCommitType": "style"
     },
     {
