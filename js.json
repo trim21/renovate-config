@@ -6,11 +6,11 @@
   },
   "packageRules": [
     {
-      "matchDepTypes": [
+      "matchManagers": [
         "dockerfile"
       ],
       "matchPackageNames": [
-        "nodejs/node"
+        "node"
       ],
       "enabled": false
     },
@@ -35,7 +35,11 @@
       "semanticCommitType": "style"
     },
     {
-      "matchPackageNames": ["lint-staged", "husky", "prettier"],
+      "matchPackageNames": [
+        "lint-staged",
+        "husky",
+        "prettier"
+      ],
       "semanticCommitType": "style"
     },
     {
