@@ -7,17 +7,31 @@
   "packageRules": [
     {
       "matchDepTypes": [
+        "dockerfile"
+      ],
+      "matchPackageNames": [
+        "node"
+      ],
+      "enabled": false
+    },
+    {
+      "matchDepTypes": [
         "engines"
       ],
       "enabled": false
     },
     {
-      "matchManagers": ["npm"],
+      "matchManagers": [
+        "npm"
+      ],
       "semanticCommitType": "build"
     },
     {
       "groupName": "eslint",
-      "matchPackagePrefixes": ["@typescript-eslint/", "eslint"],
+      "matchPackagePrefixes": [
+        "@typescript-eslint/",
+        "eslint"
+      ],
       "semanticCommitType": "style"
     },
     {
