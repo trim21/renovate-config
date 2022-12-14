@@ -10,8 +10,8 @@
     "test": "node test.mjs"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9",
-    "cross-env": "^7.0.3",
-    "renovate": "^34.40.0"
+    "@types/node": "18.11.9",
+    "cross-env": "7.0.3",
+    "renovate": "34.40.0"
   }
 }
