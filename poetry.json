@@ -81,6 +81,13 @@
       "matchDepTypes": [
         "dev-dependencies"
       ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "pin",
+        "pinDigest"
+      ],
       "semanticCommitScope": "dev",
       "rangeStrategy": "pin"
     }
