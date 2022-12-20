@@ -40,6 +40,9 @@
         "husky",
         "prettier"
       ],
+      "matchPackagePrefixes": [
+        "prettier"
+      ],
       "semanticCommitType": "style"
     },
     {
