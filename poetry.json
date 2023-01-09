@@ -82,6 +82,19 @@
         "dev-dependencies",
         "dev"
       ],
+      "semanticCommitScope": "dev",
+      "rangeStrategy": "pin"
+    },
+    {
+      "groupName": "deps-dev",
+      "matchManagers": [
+        "poetry"
+      ],
+      "semanticCommitType": "chore",
+      "matchDepTypes": [
+        "dev-dependencies",
+        "dev"
+      ],
       "matchUpdateTypes": [
         "minor",
         "patch",
@@ -89,8 +102,7 @@
         "pin",
         "pinDigest"
       ],
-      "semanticCommitScope": "dev",
-      "rangeStrategy": "pin"
+      "semanticCommitScope": "dev"
     }
   ]
 }
