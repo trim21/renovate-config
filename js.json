@@ -84,6 +84,15 @@
         "pin",
         "pinDigest"
       ],
+      "excludePackageNames": [
+        "husky",
+        "lint-staged"
+      ],
+      "excludePackagePrefixes": [
+        "eslint",
+        "vitest",
+        "@vitest"
+      ],
       "matchDepTypes": [
         "devDependencies"
       ]
