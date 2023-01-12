@@ -27,7 +27,15 @@
       "semanticCommitType": "build"
     },
     {
-      "groupName": "eslint-deps",
+      "groupName": "dev-deps",
+      "semanticCommitScope": "deps",
+      "semanticCommitType": "chore",
+      "matchDepTypes": [
+        "devDependencies"
+      ]
+    },
+    {
+      "groupName": "eslint deps",
       "matchPackagePrefixes": [
         "@typescript-eslint/",
         "eslint-plugin-",
@@ -37,7 +45,7 @@
       "semanticCommitType": "style"
     },
     {
-      "groupName": "formatter-deps",
+      "groupName": "formatter deps",
       "matchPackageNames": [
         "lint-staged",
         "husky",
@@ -50,7 +58,7 @@
       "semanticCommitType": "style"
     },
     {
-      "groupName": "test-deps",
+      "groupName": "testing deps",
       "matchPackageNames": [
         "vitest"
       ],
@@ -71,31 +79,6 @@
       ],
       "matchDepTypes": [
         "dependencies"
-      ]
-    },
-    {
-      "groupName": "dev-deps",
-      "semanticCommitScope": "deps",
-      "semanticCommitType": "chore",
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin",
-        "pinDigest"
-      ],
-      "excludePackageNames": [
-        "husky",
-        "lint-staged"
-      ],
-      "excludePackagePrefixes": [
-        "prettier",
-        "eslint",
-        "vitest",
-        "@vitest"
-      ],
-      "matchDepTypes": [
-        "devDependencies"
       ]
     }
   ]
