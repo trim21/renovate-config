@@ -48,8 +48,6 @@
     {
       "groupName": "formatter deps",
       "matchPackageNames": [
-        "lint-staged",
-        "husky",
         "prettier"
       ],
       "matchPackagePrefixes": [
