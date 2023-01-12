@@ -36,7 +36,7 @@
       ]
     },
     {
-      "groupName": "eslint deps",
+      "groupName": "eslint",
       "matchPackagePrefixes": [
         "@typescript-eslint/",
         "eslint-plugin-",
@@ -57,7 +57,7 @@
       "semanticCommitType": "style"
     },
     {
-      "groupName": "testing deps",
+      "groupName": "vitest",
       "matchPackageNames": [
         "vitest"
       ],
