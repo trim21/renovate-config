@@ -81,6 +81,19 @@
       "semanticCommitType": "build"
     },
     {
+      "groupName": "esbuild",
+      "matchPackageNames": [
+        "esbuild"
+      ],
+      "matchPackagePrefixes": [
+        "esbuild-",
+        "@esbuild-kit/",
+        "@esbuild/"
+      ],
+      "semanticCommitScope": "deps",
+      "semanticCommitType": "build"
+    },
+    {
       "semanticCommitScope": "deps",
       "matchUpdateTypes": [
         "minor",
