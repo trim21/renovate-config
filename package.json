@@ -12,6 +12,6 @@
   "devDependencies": {
     "@types/node": "18.11.18",
     "cross-env": "7.0.3",
-    "renovate": "34.95.0"
+    "renovate": "34.99.2"
   }
 }
