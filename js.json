@@ -55,7 +55,19 @@
         "pinDigest"
       ],
       "matchDepTypes": [
-        "dependencies",
+        "dependencies"
+      ]
+    },
+    {
+      "groupName": "dev",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "pin",
+        "pinDigest"
+      ],
+      "matchDepTypes": [
         "devDependencies"
       ]
     }
