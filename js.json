@@ -72,7 +72,8 @@
       ]
     },
     {
-      "groupName": "deps",
+      "groupName": "dev-deps",
+      "semanticCommitScope": "deps",
       "semanticCommitType": "chore",
       "matchUpdateTypes": [
         "minor",
