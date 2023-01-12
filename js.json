@@ -46,6 +46,15 @@
       "semanticCommitType": "style"
     },
     {
+      "matchPackageNames": [
+        "vitest"
+      ],
+      "matchPackagePrefixes": [
+        "@vitest/"
+      ],
+      "semanticCommitType": "tests"
+    },
+    {
       "groupName": "deps",
       "matchUpdateTypes": [
         "minor",
