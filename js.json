@@ -24,7 +24,7 @@
       "matchManagers": [
         "npm"
       ],
-      "prConcurrentLimit": 1,
+      "prConcurrentLimit": 2,
       "semanticCommitType": "build"
     },
     {
