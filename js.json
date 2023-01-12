@@ -58,7 +58,8 @@
       "semanticCommitType": "tests"
     },
     {
-      "groupName": "deps",
+      "groupName": "prod-deps",
+      "semanticCommitScope": "deps",
       "matchUpdateTypes": [
         "minor",
         "patch",
