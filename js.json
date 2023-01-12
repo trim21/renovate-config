@@ -27,15 +27,17 @@
       "semanticCommitType": "build"
     },
     {
-      "groupName": "eslint",
+      "groupName": "eslint-deps",
       "matchPackagePrefixes": [
         "@typescript-eslint/",
         "eslint-plugin-",
         "eslint"
       ],
+      "semanticCommitScope": "deps",
       "semanticCommitType": "style"
     },
     {
+      "groupName": "formatter-deps",
       "matchPackageNames": [
         "lint-staged",
         "husky",
@@ -44,6 +46,7 @@
       "matchPackagePrefixes": [
         "prettier"
       ],
+      "semanticCommitScope": "deps",
       "semanticCommitType": "style"
     },
     {
