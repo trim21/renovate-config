@@ -42,7 +42,7 @@
         "eslint-plugin-",
         "eslint"
       ],
-      "semanticCommitScope": "eslint",
+      "semanticCommitScope": "deps",
       "semanticCommitType": "style"
     },
     {
