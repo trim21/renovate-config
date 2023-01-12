@@ -69,6 +69,18 @@
       "semanticCommitType": "tests"
     },
     {
+      "groupName": "rollup",
+      "matchPackageNames": [
+        "rollup"
+      ],
+      "matchPackagePrefixes": [
+        "rollup-",
+        "@rollup/"
+      ],
+      "semanticCommitScope": "deps",
+      "semanticCommitType": "build"
+    },
+    {
       "semanticCommitScope": "deps",
       "matchUpdateTypes": [
         "minor",
