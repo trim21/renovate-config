@@ -89,6 +89,7 @@
         "lint-staged"
       ],
       "excludePackagePrefixes": [
+        "prettier",
         "eslint",
         "vitest",
         "@vitest"
