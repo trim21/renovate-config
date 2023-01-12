@@ -76,7 +76,7 @@
     {
       "groupName": "dev-deps",
       "semanticCommitScope": "deps",
-      "semanticCommitType": "chore",
+      "semanticCommitType": "build",
       "matchUpdateTypes": [
         "minor",
         "patch",
