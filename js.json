@@ -68,7 +68,8 @@
       ]
     },
     {
-      "groupName": "dev",
+      "groupName": "deps",
+      "semanticCommitType": "chore",
       "matchUpdateTypes": [
         "minor",
         "patch",
