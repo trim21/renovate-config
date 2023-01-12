@@ -30,6 +30,7 @@
       "groupName": "eslint",
       "matchPackagePrefixes": [
         "@typescript-eslint/",
+        "eslint-plugin-",
         "eslint"
       ],
       "semanticCommitType": "style"
