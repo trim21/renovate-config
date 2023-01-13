@@ -69,6 +69,19 @@
       "semanticCommitType": "tests"
     },
     {
+      "groupName": "jest",
+      "matchPackageNames": [
+        "ts-jest",
+        "jest"
+      ],
+      "matchPackagePrefixes": [
+        "jest-",
+        "@jest/"
+      ],
+      "semanticCommitScope": "deps",
+      "semanticCommitType": "tests"
+    },
+    {
       "groupName": "rollup",
       "matchPackageNames": [
         "rollup"
