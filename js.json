@@ -4,6 +4,7 @@
     "semanticCommitType": "build",
     "enabled": true
   },
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "packageRules": [
     {
       "matchManagers": [
