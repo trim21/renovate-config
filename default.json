@@ -22,5 +22,8 @@
       "semanticCommitScope": "",
       "semanticCommitType": "ci"
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
