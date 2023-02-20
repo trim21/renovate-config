@@ -2,9 +2,7 @@ import * as cp from "child_process";
 import * as path from "path";
 import * as fs from "fs";
 
-const files = fs.readdirSync(".");
-
-files
+fs.readdirSync(".")
   .filter((x) => x.endsWith(".json"))
   .filter((x) => x !== "package.json")
   .forEach((x) => {
