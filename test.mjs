@@ -4,12 +4,15 @@ import * as fs from "fs";
 
 const files = fs.readdirSync(".");
 
-files.filter(x => x !== "package.json" && x.endsWith(".json")).forEach(x => {
-  cp.execSync("npx renovate-config-validator", {
-    stdio: "inherit",
-    env: {
-      PATH: process.env.PATH ?? process.env.Path,
-      RENOVATE_CONFIG_FILE: path.resolve(x),
-    },
+files
+  .filter((x) => x.endsWith(".json"))
+  .filter((x) => x !== "package.json")
+  .forEach((x) => {
+    cp.execSync("npx renovate-config-validator", {
+      stdio: "inherit",
+      env: {
+        PATH: process.env.PATH ?? process.env.Path,
+        RENOVATE_CONFIG_FILE: path.resolve(x),
+      },
+    });
   });
-});
