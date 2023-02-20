@@ -7,11 +7,18 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
     "test": "node test.mjs"
   },
   "devDependencies": {
     "@types/node": "18.13.0",
     "cross-env": "7.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
     "renovate": "34.138.1"
+  },
+  "lint-staged": {
+    "*.{md,html,js,ts,tsx,css,less,cjs,mjs,yaml,yml,json}": "prettier --write"
   }
 }
