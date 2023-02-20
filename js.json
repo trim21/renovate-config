@@ -7,24 +7,16 @@
   "postUpdateOptions": ["yarnDedupeHighest"],
   "packageRules": [
     {
-      "matchManagers": [
-        "dockerfile"
-      ],
-      "matchPackageNames": [
-        "node"
-      ],
+      "matchManagers": ["dockerfile"],
+      "matchPackageNames": ["node"],
       "enabled": false
     },
     {
-      "matchDepTypes": [
-        "engines"
-      ],
+      "matchDepTypes": ["engines"],
       "enabled": false
     },
     {
-      "matchManagers": [
-        "npm"
-      ],
+      "matchManagers": ["npm"],
       "prConcurrentLimit": 2,
       "semanticCommitType": "build"
     },
@@ -32,9 +24,7 @@
       "groupName": "dev-deps",
       "semanticCommitScope": "deps",
       "semanticCommitType": "chore",
-      "matchDepTypes": [
-        "devDependencies"
-      ]
+      "matchDepTypes": ["devDependencies"]
     },
     {
       "groupName": "eslint",
@@ -48,77 +38,43 @@
     },
     {
       "groupName": "formatter deps",
-      "matchPackageNames": [
-        "prettier"
-      ],
-      "matchPackagePrefixes": [
-        "prettier"
-      ],
+      "matchPackageNames": ["prettier"],
+      "matchPackagePrefixes": ["prettier"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "style"
     },
     {
       "groupName": "vitest",
-      "matchPackageNames": [
-        "vitest"
-      ],
-      "matchPackagePrefixes": [
-        "vitest-",
-        "@vitest/"
-      ],
+      "matchPackageNames": ["vitest"],
+      "matchPackagePrefixes": ["vitest-", "@vitest/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests"
     },
     {
       "groupName": "jest",
-      "matchPackageNames": [
-        "ts-jest",
-        "jest"
-      ],
-      "matchPackagePrefixes": [
-        "jest-",
-        "@jest/"
-      ],
+      "matchPackageNames": ["ts-jest", "jest"],
+      "matchPackagePrefixes": ["jest-", "@jest/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests"
     },
     {
       "groupName": "rollup",
-      "matchPackageNames": [
-        "rollup"
-      ],
-      "matchPackagePrefixes": [
-        "rollup-",
-        "@rollup/"
-      ],
+      "matchPackageNames": ["rollup"],
+      "matchPackagePrefixes": ["rollup-", "@rollup/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "build"
     },
     {
       "groupName": "esbuild",
-      "matchPackageNames": [
-        "esbuild"
-      ],
-      "matchPackagePrefixes": [
-        "esbuild-",
-        "@esbuild-kit/",
-        "@esbuild/"
-      ],
+      "matchPackageNames": ["esbuild"],
+      "matchPackagePrefixes": ["esbuild-", "@esbuild-kit/", "@esbuild/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "build"
     },
     {
       "semanticCommitScope": "deps",
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin",
-        "pinDigest"
-      ],
-      "matchDepTypes": [
-        "dependencies"
-      ]
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
+      "matchDepTypes": ["dependencies"]
     }
   ]
 }

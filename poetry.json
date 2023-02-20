@@ -22,86 +22,40 @@
   "packageRules": [
     {
       "groupName": "deps",
-      "matchManagers": [
-        "poetry"
-      ],
+      "matchManagers": ["poetry"],
       "semanticCommitType": "build",
-      "matchDepTypes": [
-        "dependencies"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin",
-        "pinDigest"
-      ],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
       "semanticCommitScope": "deps"
     },
     {
       "groupName": "flake8",
-      "matchManagers": [
-        "poetry"
-      ],
+      "matchManagers": ["poetry"],
       "semanticCommitType": "style",
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin",
-        "pinDigest"
-      ],
-      "matchPackagePrefixes": [
-        "flake8"
-      ]
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
+      "matchPackagePrefixes": ["flake8"]
     },
     {
       "groupName": "sphinx",
-      "matchManagers": [
-        "poetry"
-      ],
+      "matchManagers": ["poetry"],
       "semanticCommitType": "build",
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin",
-        "pinDigest"
-      ],
-      "matchPackagePrefixes": [
-        "sphinx"
-      ]
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
+      "matchPackagePrefixes": ["sphinx"]
     },
     {
       "groupName": "deps-dev",
-      "matchManagers": [
-        "poetry"
-      ],
+      "matchManagers": ["poetry"],
       "semanticCommitType": "chore",
-      "matchDepTypes": [
-        "dev-dependencies",
-        "dev"
-      ],
+      "matchDepTypes": ["dev-dependencies", "dev"],
       "semanticCommitScope": "dev",
       "rangeStrategy": "pin"
     },
     {
       "groupName": "deps-dev",
-      "matchManagers": [
-        "poetry"
-      ],
+      "matchManagers": ["poetry"],
       "semanticCommitType": "chore",
-      "matchDepTypes": [
-        "dev-dependencies",
-        "dev"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin",
-        "pinDigest"
-      ],
+      "matchDepTypes": ["dev-dependencies", "dev"],
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
       "semanticCommitScope": "dev"
     }
   ]
