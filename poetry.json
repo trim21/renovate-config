@@ -21,6 +21,12 @@
   },
   "packageRules": [
     {
+      "matchManagers": ["poetry"],
+      "semanticCommitType": "build",
+      "matchUpdateTypes": ["major"],
+      "semanticCommitScope": "deps"
+    },
+    {
       "groupName": "deps",
       "matchManagers": ["poetry"],
       "semanticCommitType": "build",
