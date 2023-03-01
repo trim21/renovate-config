@@ -44,6 +44,13 @@
       "semanticCommitType": "style"
     },
     {
+      "groupName": "vite",
+      "matchPackageNames": ["vite"],
+      "matchPackagePrefixes": ["vite-", "@vitejsjs/"],
+      "semanticCommitScope": "build",
+      "semanticCommitType": ""
+    },
+    {
       "groupName": "vitest",
       "matchPackageNames": ["vitest"],
       "matchPackagePrefixes": ["vitest-", "@vitest/"],
