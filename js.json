@@ -46,7 +46,7 @@
     {
       "groupName": "vite",
       "matchPackageNames": ["vite"],
-      "matchPackagePrefixes": ["vite-", "@vitejsjs/"],
+      "matchPackagePrefixes": ["vite-", "@vitejs/"],
       "semanticCommitScope": "build",
       "semanticCommitType": ""
     },
