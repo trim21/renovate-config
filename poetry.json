@@ -21,6 +21,10 @@
   },
   "packageRules": [
     {
+      "matchDatasources": ["npm"],
+      "stabilityDays": 3
+    },
+    {
       "matchManagers": ["poetry"],
       "semanticCommitType": "build",
       "matchUpdateTypes": ["major"],
