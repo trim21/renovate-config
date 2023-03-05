@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":dependencyDashboard"],
+  "stabilityDays": 3,
   "prHourlyLimit": 0,
   "assignees": ["@trim21"],
   "recreateClosed": true,
