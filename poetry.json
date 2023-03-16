@@ -31,7 +31,6 @@
       "semanticCommitScope": "deps"
     },
     {
-      "groupName": "deps",
       "matchManagers": ["poetry"],
       "semanticCommitType": "build",
       "matchDepTypes": ["dependencies"],
@@ -53,7 +52,6 @@
       "matchPackagePrefixes": ["sphinx"]
     },
     {
-      "groupName": "deps-dev",
       "matchManagers": ["poetry"],
       "semanticCommitType": "chore",
       "matchDepTypes": ["dev-dependencies", "dev"],
@@ -61,7 +59,6 @@
       "rangeStrategy": "pin"
     },
     {
-      "groupName": "deps-dev",
       "matchManagers": ["poetry"],
       "semanticCommitType": "chore",
       "matchDepTypes": ["dev-dependencies", "dev"],
