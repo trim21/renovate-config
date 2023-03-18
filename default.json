@@ -12,6 +12,33 @@
   "semanticCommitType": "chore",
   "packageRules": [
     {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "semanticCommitType": "chore"
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+        "require"
+      ],
+      "semanticCommitType": "chore"
+    },
+    {
+      "matchDatasources": [
+        "maven"
+      ],
+      "matchDepTypes": [
+        "compile",
+        "provided",
+        "runtime",
+        "system",
+        "import",
+        "parent"
+      ],
+      "semanticCommitType": "chore"
+    },
+    {
       "matchManagers": ["github-actions"],
       "semanticCommitScope": "",
       "semanticCommitType": "ci"
