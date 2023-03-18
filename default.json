@@ -12,31 +12,12 @@
   "semanticCommitType": "chore",
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
+      "matchPackagePatterns": ["*"],
       "semanticCommitType": "chore"
     },
     {
-      "matchDepTypes": [
-        "dependencies",
-        "require"
-      ],
-      "semanticCommitType": "chore"
-    },
-    {
-      "matchDatasources": [
-        "maven"
-      ],
-      "matchDepTypes": [
-        "compile",
-        "provided",
-        "runtime",
-        "system",
-        "import",
-        "parent"
-      ],
-      "semanticCommitType": "chore"
+      "matchDepTypes": ["dependencies", "require"],
+      "semanticCommitType": "build"
     },
     {
       "matchManagers": ["github-actions"],
