@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "lockFileMaintenance": {
     "semanticCommitType": "build",
-    "automerge": true,
     "enabled": true
   },
   "poetry": {
