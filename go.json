@@ -1,6 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "postUpdateOptions": ["gomodTidy1.17", "gomodUpdateImportPaths"],
+  "lockFileMaintenance": {
+    "semanticCommitType": "build",
+    "automerge": true,
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchManagers": ["gomod"],
