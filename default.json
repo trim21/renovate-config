@@ -3,6 +3,7 @@
   "extends": ["config:base", ":dependencyDashboard"],
   "prHourlyLimit": 0,
   "assignees": ["@trim21"],
+  "platformCommit": true,
   "recreateClosed": true,
   "timezone": "Asia/Shanghai",
   "semanticCommits": "enabled",
