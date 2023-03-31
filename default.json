@@ -10,7 +10,6 @@
   "labels": ["dependencies"],
   "separateMultipleMajor": true,
   "separateMinorPatch": false,
-  "gitAuthor": "renovate <29139614+renovate@users.noreply.github.com>",
   "semanticCommitType": "chore",
   "packageRules": [
     {
