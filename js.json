@@ -73,7 +73,6 @@
       "semanticCommitType": "build"
     },
     {
-//      "groupName": "dev-deps",
       "semanticCommitScope": "deps",
       "semanticCommitType": "chore",
       "matchDepTypes": ["devDependencies"]
