@@ -21,12 +21,6 @@
       "semanticCommitType": "build"
     },
     {
-      "groupName": "dev-deps",
-      "semanticCommitScope": "deps",
-      "semanticCommitType": "chore",
-      "matchDepTypes": ["devDependencies"]
-    },
-    {
       "groupName": "eslint",
       "matchPackagePrefixes": [
         "@typescript-eslint/",
@@ -77,6 +71,12 @@
       "matchPackagePrefixes": ["esbuild-", "@esbuild-kit/", "@esbuild/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "build"
+    },
+    {
+//      "groupName": "dev-deps",
+      "semanticCommitScope": "deps",
+      "semanticCommitType": "chore",
+      "matchDepTypes": ["devDependencies"]
     },
     {
       "semanticCommitScope": "deps",
