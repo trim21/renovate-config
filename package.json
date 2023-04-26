@@ -17,7 +17,7 @@
     "husky": "8.0.3",
     "lint-staged": "13.2.1",
     "prettier": "2.8.8",
-    "renovate": "35.57.1"
+    "renovate": "35.60.0"
   },
   "lint-staged": {
     "*.{md,html,js,ts,tsx,css,less,cjs,mjs,yaml,yml,json}": "prettier --write"
