@@ -7,11 +7,6 @@
   "postUpdateOptions": ["yarnDedupeHighest"],
   "packageRules": [
     {
-      "matchManagers": ["dockerfile"],
-      "matchPackageNames": ["node"],
-      "enabled": false
-    },
-    {
       "matchDepTypes": ["engines"],
       "enabled": false
     },
