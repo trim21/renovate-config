@@ -4,6 +4,7 @@
     "semanticCommitType": "build",
     "enabled": true
   },
+  "branchConcurrentLimit": 3,
   "poetry": {
     "enabled": true
   },
