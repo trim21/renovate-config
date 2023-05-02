@@ -3,5 +3,11 @@
   "schedule": ["on the 1st day of the month"],
   "lockFileMaintenance": {
     "schedule": ["every 3 months on the first day of the month"]
-  }
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["pin"],
+      "schedule": ["at any time"]
+    }
+  ]
 }
