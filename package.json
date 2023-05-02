@@ -21,5 +21,6 @@
   },
   "lint-staged": {
     "*.{md,html,js,ts,tsx,css,less,cjs,mjs,yaml,yml,json}": "prettier --write"
-  }
+  },
+  "packageManager": "yarn@3.5.1"
 }
