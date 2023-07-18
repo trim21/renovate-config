@@ -7,10 +7,6 @@
   "postUpdateOptions": ["yarnDedupeHighest"],
   "packageRules": [
     {
-      "matchPackageNames": ["yarn", "pnpm", "npm"],
-      "schedule": ["at any time"]
-    },
-    {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["node"],
       "matchUpdateTypes": "major",
