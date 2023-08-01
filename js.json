@@ -18,7 +18,6 @@
     },
     {
       "matchManagers": ["npm"],
-      "prConcurrentLimit": 2,
       "semanticCommitType": "build"
     },
     {
