@@ -16,7 +16,7 @@
     "cross-env": "7.0.3",
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
-    "prettier": "3.0.1",
+    "prettier": "3.0.2",
     "renovate": "36.34.0"
   },
   "lint-staged": {
