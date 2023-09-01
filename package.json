@@ -15,7 +15,7 @@
     "@types/node": "18.17.12",
     "cross-env": "7.0.3",
     "husky": "8.0.3",
-    "lint-staged": "13.3.0",
+    "lint-staged": "14.0.1",
     "prettier": "3.0.2",
     "renovate": "36.68.1"
   },
