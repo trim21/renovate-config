@@ -28,7 +28,7 @@
     {
       "matchManagers": ["poetry"],
       "matchPackageNames": ["python"],
-      "rangeStrategy": "bump"
+      "rangeStrategy": "replace"
     },
     {
       "matchManagers": ["poetry"],
