@@ -27,6 +27,11 @@
     },
     {
       "matchManagers": ["poetry"],
+      "matchPackageNames": ["python"],
+      "enable": false
+    },
+    {
+      "matchManagers": ["poetry"],
       "semanticCommitType": "build",
       "matchUpdateTypes": ["major"],
       "semanticCommitScope": "deps"
