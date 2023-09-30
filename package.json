@@ -12,7 +12,7 @@
     "test": "node test.mjs"
   },
   "devDependencies": {
-    "@types/node": "18.17.12",
+    "@types/node": "18.18.0",
     "cross-env": "7.0.3",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
