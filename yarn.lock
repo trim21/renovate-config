@@ -4052,9 +4052,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.3.4, glob@npm:^10.2.2":
-  version: 10.3.4
-  resolution: "glob@npm:10.3.4"
+"glob@npm:10.3.5, glob@npm:^10.2.2":
+  version: 10.3.5
+  resolution: "glob@npm:10.3.5"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.0.3
@@ -4063,7 +4063,7 @@ __metadata:
     path-scurry: ^1.10.1
   bin:
     glob: dist/cjs/src/bin.js
-  checksum: 176b97c124414401cb51329a93d2ba112cef8814adbed10348481916b9521b677773eee2691cb6b24d66632d8c8bb8913533f5ac4bfb2d0ef5454a1856082361
+  checksum: 564f4799cae48c0bcc841c88a20b539b5701c27ed5596f8623f588b3c523262d3fc20eb1ea89cab9c75b0912faf40ca5501fc835f982225d0d0599282b09e97a
   languageName: node
   linkType: hard
 
@@ -6265,13 +6265,13 @@ __metadata:
     husky: 8.0.3
     lint-staged: 14.0.1
     prettier: 3.0.3
-    renovate: 36.109.4
+    renovate: 37.0.2
   languageName: unknown
   linkType: soft
 
-"renovate@npm:36.109.4":
-  version: 36.109.4
-  resolution: "renovate@npm:36.109.4"
+"renovate@npm:37.0.2":
+  version: 37.0.2
+  resolution: "renovate@npm:37.0.2"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -6329,7 +6329,7 @@ __metadata:
     fs-extra: 11.1.1
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
-    glob: 10.3.4
+    glob: 10.3.5
     global-agent: 3.0.0
     good-enough-parser: 1.1.23
     google-auth-library: 9.0.0
@@ -6387,7 +6387,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 80bf78ba018f02ea90c1c74d58827c046cb534f3fdf1a87f89c91b8f5b9122d289fd206cabb30a2809a63e23783b76e01369653a29fbd54e6450784713c33a7c
+  checksum: a963e275fec326e03970e138bd5dc6034c8eee7ce8b7fe6cb93de99375e5ba1e8eba83a8288aba34ad800c3a6be0d859e56897cdc0f8daac17547dff8b6c98bb
   languageName: node
   linkType: hard
 
