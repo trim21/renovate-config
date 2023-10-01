@@ -4052,18 +4052,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.3.5, glob@npm:^10.2.2":
-  version: 10.3.5
-  resolution: "glob@npm:10.3.5"
+"glob@npm:10.3.10, glob@npm:^10.2.2":
+  version: 10.3.10
+  resolution: "glob@npm:10.3.10"
   dependencies:
     foreground-child: ^3.1.0
-    jackspeak: ^2.0.3
+    jackspeak: ^2.3.5
     minimatch: ^9.0.1
     minipass: ^5.0.0 || ^6.0.2 || ^7.0.0
     path-scurry: ^1.10.1
   bin:
-    glob: dist/cjs/src/bin.js
-  checksum: 564f4799cae48c0bcc841c88a20b539b5701c27ed5596f8623f588b3c523262d3fc20eb1ea89cab9c75b0912faf40ca5501fc835f982225d0d0599282b09e97a
+    glob: dist/esm/bin.mjs
+  checksum: 4f2fe2511e157b5a3f525a54092169a5f92405f24d2aed3142f4411df328baca13059f4182f1db1bf933e2c69c0bd89e57ae87edd8950cba8c7ccbe84f721cf3
   languageName: node
   linkType: hard
 
@@ -4718,16 +4718,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jackspeak@npm:^2.0.3":
-  version: 2.2.1
-  resolution: "jackspeak@npm:2.2.1"
+"jackspeak@npm:^2.3.5":
+  version: 2.3.6
+  resolution: "jackspeak@npm:2.3.6"
   dependencies:
     "@isaacs/cliui": ^8.0.2
     "@pkgjs/parseargs": ^0.11.0
   dependenciesMeta:
     "@pkgjs/parseargs":
       optional: true
-  checksum: e29291c0d0f280a063fa18fbd1e891ab8c2d7519fd34052c0ebde38538a15c603140d60c2c7f432375ff7ee4c5f1c10daa8b2ae19a97c3d4affe308c8360c1df
+  checksum: 57d43ad11eadc98cdfe7496612f6bbb5255ea69fe51ea431162db302c2a11011642f50cfad57288bd0aea78384a0612b16e131944ad8ecd09d619041c8531b54
   languageName: node
   linkType: hard
 
@@ -6265,13 +6265,13 @@ __metadata:
     husky: 8.0.3
     lint-staged: 14.0.1
     prettier: 3.0.3
-    renovate: 37.0.2
+    renovate: 37.1.2
   languageName: unknown
   linkType: soft
 
-"renovate@npm:37.0.2":
-  version: 37.0.2
-  resolution: "renovate@npm:37.0.2"
+"renovate@npm:37.1.2":
+  version: 37.1.2
+  resolution: "renovate@npm:37.1.2"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -6329,7 +6329,7 @@ __metadata:
     fs-extra: 11.1.1
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
-    glob: 10.3.5
+    glob: 10.3.10
     global-agent: 3.0.0
     good-enough-parser: 1.1.23
     google-auth-library: 9.0.0
@@ -6387,7 +6387,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: a963e275fec326e03970e138bd5dc6034c8eee7ce8b7fe6cb93de99375e5ba1e8eba83a8288aba34ad800c3a6be0d859e56897cdc0f8daac17547dff8b6c98bb
+  checksum: 1627dc9f788a5b45d0f58a658c1e71fadf25f9b584e225b24f3fb433ea4c85b42857fc8051d6da86e24358b0caf679dbb877657c476fe1eb3b09d0b80e4cf1e3
   languageName: node
   linkType: hard
 
