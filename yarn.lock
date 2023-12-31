@@ -5699,6 +5699,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:3.1.1":
+  version: 3.1.1
+  resolution: "prettier@npm:3.1.1"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: facc944ba20e194ff4db765e830ffbcb642803381f0d2033ed397e79904fa4ccc877dc25ad68f42d36985c01d051c990ca1b905fb83d2d7d65fe69e4386fa1a3
+  languageName: node
+  linkType: hard
+
 "proc-log@npm:^3.0.0":
   version: 3.0.0
   resolution: "proc-log@npm:3.0.0"
@@ -5919,7 +5928,7 @@ __metadata:
     cross-env: "npm:7.0.3"
     husky: "npm:8.0.3"
     lint-staged: "npm:15.2.0"
-    prettier: "npm:3.1.0"
+    prettier: "npm:3.1.1"
     renovate: "npm:37.74.3"
   languageName: unknown
   linkType: soft
