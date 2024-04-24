@@ -12,6 +12,9 @@
   "separateMultipleMajor": true,
   "separateMinorPatch": false,
   "semanticCommitType": "chore",
+  "pre-commit": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
