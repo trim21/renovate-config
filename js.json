@@ -8,7 +8,7 @@
   "packageRules": [
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["node"],
+      "matchDepNames": ["node"],
       "matchUpdateTypes": "major",
       "enabled": false
     },
@@ -32,42 +32,42 @@
     },
     {
       "groupName": "formatter deps",
-      "matchPackageNames": ["prettier"],
+      "matchDepNames": ["prettier"],
       "matchPackagePrefixes": ["prettier"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "style"
     },
     {
       "groupName": "vite",
-      "matchPackageNames": ["vite"],
+      "matchDepNames": ["vite"],
       "matchPackagePrefixes": ["vite-", "@vitejs/"],
       "semanticCommitScope": "",
       "semanticCommitType": "build"
     },
     {
       "groupName": "vitest",
-      "matchPackageNames": ["vitest"],
+      "matchDepNames": ["vitest"],
       "matchPackagePrefixes": ["vitest-", "@vitest/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests"
     },
     {
       "groupName": "jest",
-      "matchPackageNames": ["ts-jest", "jest"],
+      "matchDepNames": ["ts-jest", "jest"],
       "matchPackagePrefixes": ["jest-", "@jest/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests"
     },
     {
       "groupName": "rollup",
-      "matchPackageNames": ["rollup"],
+      "matchDepNames": ["rollup"],
       "matchPackagePrefixes": ["rollup-", "@rollup/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "build"
     },
     {
       "groupName": "esbuild",
-      "matchPackageNames": ["esbuild"],
+      "matchDepNames": ["esbuild"],
       "matchPackagePrefixes": ["esbuild-", "@esbuild-kit/", "@esbuild/"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "build"

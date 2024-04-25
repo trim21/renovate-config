@@ -24,7 +24,7 @@
     },
     {
       "matchManagers": ["poetry"],
-      "matchPackageNames": ["python"],
+      "matchDepNames": ["python"],
       "rangeStrategy": "replace"
     },
     {
