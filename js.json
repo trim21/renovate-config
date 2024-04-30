@@ -76,6 +76,7 @@
       "semanticCommitScope": "deps",
       "groupName": "deps-dev",
       "semanticCommitType": "chore",
+      "excludePackageNames": ["typescript"],
       "matchDepTypes": ["devDependencies"]
     },
     {
