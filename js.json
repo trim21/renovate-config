@@ -74,11 +74,13 @@
     },
     {
       "semanticCommitScope": "deps",
+      "groupName": "deps-dev",
       "semanticCommitType": "chore",
       "matchDepTypes": ["devDependencies"]
     },
     {
       "semanticCommitScope": "deps",
+      "groupName": "deps",
       "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
       "matchDepTypes": ["dependencies"]
     }
