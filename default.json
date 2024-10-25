@@ -8,6 +8,7 @@
   "recreateClosed": true,
   "timezone": "Asia/Shanghai",
   "semanticCommits": "enabled",
+  "minimumReleaseAge": "3 days",
   "labels": ["dependencies"],
   "separateMultipleMajor": true,
   "separateMinorPatch": false,
