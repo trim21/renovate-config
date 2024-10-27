@@ -12,12 +12,12 @@
     "test": "node test.mjs"
   },
   "devDependencies": {
-    "@types/node": "20.16.10",
+    "@types/node": "20.17.0",
     "cross-env": "7.0.3",
     "husky": "9.1.6",
     "lint-staged": "15.2.10",
     "prettier": "3.3.3",
-    "renovate": "38.100.0"
+    "renovate": "38.130.2"
   },
   "lint-staged": {
     "*.{md,html,js,ts,tsx,css,less,cjs,mjs,yaml,yml,json}": "prettier --write"
