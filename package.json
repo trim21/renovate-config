@@ -7,7 +7,6 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install",
     "format": "prettier --write --list-different ./",
     "test": "node test.mjs"
   },
