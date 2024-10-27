@@ -1,27 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "lockFileMaintenance": {
-    "semanticCommitType": "build",
-    "enabled": true
-  },
-  "branchConcurrentLimit": 3,
-  "poetry": {
-    "enabled": true
-  },
-  "pip_setup": {
-    "enabled": false
-  },
-  "pipenv": {
-    "enabled": false
-  },
-  "setup-cfg": {
-    "enabled": false
-  },
+  "lockFileMaintenance": { "semanticCommitType": "build", "enabled": true },
+  "branchConcurrentLimit": 2,
+  "poetry": { "enabled": true },
+  "pip_setup": { "enabled": false },
+  "pipenv": { "enabled": false },
+  "setup-cfg": { "enabled": false },
   "packageRules": [
-    {
-      "matchDatasources": ["npm"],
-      "stabilityDays": 3
-    },
+    { "matchDatasources": ["npm"], "minimumReleaseAge": "3 days" },
     {
       "matchManagers": ["poetry"],
       "matchDepNames": ["python"],
@@ -45,14 +31,14 @@
       "matchManagers": ["poetry"],
       "semanticCommitType": "style",
       "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
-      "matchPackagePrefixes": ["flake8"]
+      "matchPackageNames": ["flake8{/,}**"]
     },
     {
       "groupName": "sphinx",
       "matchManagers": ["poetry"],
       "semanticCommitType": "build",
       "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
-      "matchPackagePrefixes": ["sphinx"]
+      "matchPackageNames": ["sphinx{/,}**"]
     },
     {
       "matchManagers": ["poetry"],
