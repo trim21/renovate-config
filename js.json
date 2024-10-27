@@ -22,62 +22,66 @@
     },
     {
       "groupName": "eslint",
-      "matchPackagePrefixes": [
-        "@typescript-eslint/",
-        "eslint-plugin-",
-        "eslint"
-      ],
       "semanticCommitScope": "deps",
-      "semanticCommitType": "style"
+      "semanticCommitType": "style",
+      "matchPackageNames": [
+        "@typescript-eslint/{/,}**",
+        "eslint-plugin-{/,}**",
+        "eslint{/,}**"
+      ]
     },
     {
       "groupName": "formatter deps",
       "matchDepNames": ["prettier"],
-      "matchPackagePrefixes": ["prettier"],
       "semanticCommitScope": "deps",
-      "semanticCommitType": "style"
+      "semanticCommitType": "style",
+      "matchPackageNames": ["prettier{/,}**"]
     },
     {
       "groupName": "vite",
       "matchDepNames": ["vite"],
-      "matchPackagePrefixes": ["vite-", "@vitejs/"],
       "semanticCommitScope": "",
-      "semanticCommitType": "build"
+      "semanticCommitType": "build",
+      "matchPackageNames": ["vite-{/,}**", "@vitejs/{/,}**"]
     },
     {
       "groupName": "vitest",
       "matchDepNames": ["vitest"],
-      "matchPackagePrefixes": ["vitest-", "@vitest/"],
       "semanticCommitScope": "deps",
-      "semanticCommitType": "tests"
+      "semanticCommitType": "tests",
+      "matchPackageNames": ["vitest-{/,}**", "@vitest/{/,}**"]
     },
     {
       "groupName": "jest",
       "matchDepNames": ["ts-jest", "jest"],
-      "matchPackagePrefixes": ["jest-", "@jest/"],
       "semanticCommitScope": "deps",
-      "semanticCommitType": "tests"
+      "semanticCommitType": "tests",
+      "matchPackageNames": ["jest-{/,}**", "@jest/{/,}**"]
     },
     {
       "groupName": "rollup",
       "matchDepNames": ["rollup"],
-      "matchPackagePrefixes": ["rollup-", "@rollup/"],
       "semanticCommitScope": "deps",
-      "semanticCommitType": "build"
+      "semanticCommitType": "build",
+      "matchPackageNames": ["rollup-{/,}**", "@rollup/{/,}**"]
     },
     {
       "groupName": "esbuild",
       "matchDepNames": ["esbuild"],
-      "matchPackagePrefixes": ["esbuild-", "@esbuild-kit/", "@esbuild/"],
       "semanticCommitScope": "deps",
-      "semanticCommitType": "build"
+      "semanticCommitType": "build",
+      "matchPackageNames": [
+        "esbuild-{/,}**",
+        "@esbuild-kit/{/,}**",
+        "@esbuild/{/,}**"
+      ]
     },
     {
       "semanticCommitScope": "deps",
       "groupName": "deps-dev",
       "semanticCommitType": "chore",
-      "excludePackageNames": ["typescript"],
-      "matchDepTypes": ["devDependencies"]
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": ["!typescript"]
     },
     {
       "semanticCommitScope": "deps",
