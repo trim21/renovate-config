@@ -1,13 +1,32 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "lockFileMaintenance": { "semanticCommitType": "build", "enabled": true },
+  "lockFileMaintenance": {
+    "semanticCommitType": "build",
+    "enabled": true
+  },
   "branchConcurrentLimit": 2,
-  "poetry": { "enabled": true },
-  "pip_setup": { "enabled": false },
-  "pipenv": { "enabled": false },
-  "setup-cfg": { "enabled": false },
+  "poetry": {
+    "enabled": true
+  },
+  "pip_setup": {
+    "enabled": false
+  },
+  "pipenv": {
+    "enabled": false
+  },
+  "setup-cfg": {
+    "enabled": false
+  },
   "packageRules": [
-    { "matchDatasources": ["npm"], "minimumReleaseAge": "3 days" },
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "3 days"
+    },
+    {
+      "groupName": "grpc",
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["grpcio", "grpcio-tools"]
+    },
     {
       "matchManagers": ["poetry"],
       "matchDepNames": ["python"],
