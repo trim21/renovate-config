@@ -1,55 +1,41 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    ":dependencyDashboard"
-  ],
-  "prHourlyLimit": 0,
-  "prConcurrentLimit": 0,
-  "assignees": [
-    "@trim21"
-  ],
-  "platformCommit": "enabled",
-  "recreateWhen": "always",
-  "timezone": "Asia/Shanghai",
-  "semanticCommits": "enabled",
-  "minimumReleaseAge": "3 days",
-  "labels": [
-    "dependencies"
-  ],
-  "separateMultipleMajor": true,
-  "separateMinorPatch": false,
-  "semanticCommitType": "chore",
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["config:recommended", ":dependencyDashboard"],
+  prHourlyLimit: 0,
+  prConcurrentLimit: 0,
+  assignees: ["@trim21"],
+  platformCommit: "enabled",
+  recreateWhen: "always",
+  timezone: "Asia/Shanghai",
+  semanticCommits: "enabled",
+  minimumReleaseAge: "3 days",
+  labels: ["dependencies"],
+  separateMultipleMajor: true,
+  separateMinorPatch: false,
+  semanticCommitType: "chore",
   "pre-commit": {
-    "enabled": true
+    enabled: true,
   },
-  "gitIgnoredAuthors": [
+  gitIgnoredAuthors: [
     // https://github.com/marketplace/autofix-ci
-    "<114827586+autofix-ci[bot]@users.noreply.github.com>"
+    "<114827586+autofix-ci[bot]@users.noreply.github.com>",
   ],
-  "packageRules": [
+  packageRules: [
     {
-      "semanticCommitType": "chore",
-      "matchPackageNames": [
-        "*"
-      ]
+      semanticCommitType: "chore",
+      matchPackageNames: ["*"],
     },
     {
-      "matchDepTypes": [
-        "dependencies",
-        "require"
-      ],
-      "semanticCommitType": "build"
+      matchDepTypes: ["dependencies", "require"],
+      semanticCommitType: "build",
     },
     {
-      "matchManagers": [
-        "github-actions"
-      ],
-      "semanticCommitScope": "",
-      "semanticCommitType": "ci"
-    }
+      matchManagers: ["github-actions"],
+      semanticCommitScope: "",
+      semanticCommitType: "ci",
+    },
   ],
-  "vulnerabilityAlerts": {
-    "enabled": true
-  }
+  vulnerabilityAlerts: {
+    enabled: true,
+  },
 }
