@@ -2606,12 +2606,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.8.1, @types/node@npm:>=13.7.0":
-  version: 22.8.1
-  resolution: "@types/node@npm:22.8.1"
+"@types/node@npm:*, @types/node@npm:22.8.2, @types/node@npm:>=13.7.0":
+  version: 22.8.2
+  resolution: "@types/node@npm:22.8.2"
   dependencies:
     undici-types: "npm:~6.19.8"
-  checksum: 10c0/83550fdf72a7db5b55eceac3f4fb038844eaee20202bdd2297a8248370cfa08317bda1605b781a8043eda4f173b75e73632e652fc85509eb14dfef78fa17337f
+  checksum: 10c0/c6fa6c54c23e61015cace1517c4101602cae0ff3c4f6604f6cdb89875143921830e5602cabe8b4f90f90363451687a0497f1d07d30be8104fee758d6d44c90ac
   languageName: node
   linkType: hard
 
@@ -6732,18 +6732,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-config@workspace:."
   dependencies:
-    "@types/node": "npm:22.8.1"
+    "@types/node": "npm:22.8.2"
     cross-env: "npm:7.0.3"
     husky: "npm:9.1.6"
     lint-staged: "npm:15.2.10"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.133.1"
+    renovate: "npm:38.133.2"
   languageName: unknown
   linkType: soft
 
-"renovate@npm:38.133.1":
-  version: 38.133.1
-  resolution: "renovate@npm:38.133.1"
+"renovate@npm:38.133.2":
+  version: 38.133.2
+  resolution: "renovate@npm:38.133.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.658.1"
     "@aws-sdk/client-ec2": "npm:3.658.1"
@@ -6865,7 +6865,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/e1fbe74480a45ec742bf5b203b5d2b26124a9ea6a7b02e04de6dc7504b35b8d92c04b917613ca19e4bd0cb7ddc4dd3a3ff2bf849f83af5a7b93fd169c0bf5d08
+  checksum: 10c0/22588835496e5718820aedeef6a8d9b306648d5be3522a91cf693c1bc00ab2eb86037f0448ef08a6f9e2172b7566cd83ef7ab85f040f2ee4fe1da7c193916051
   languageName: node
   linkType: hard
 
