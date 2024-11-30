@@ -28,6 +28,11 @@
       "matchPackageNames": ["grpcio", "grpcio-tools"]
     },
     {
+      "groupName": "asyncpg",
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["asyncpg", "asyncpg-stubs"]
+    },
+    {
       "matchManagers": ["poetry"],
       "matchDepNames": ["python"],
       "rangeStrategy": "replace"
