@@ -10,6 +10,7 @@
   semanticCommits: "enabled",
   minimumReleaseAge: "3 days",
   internalChecksFilter: "strict",
+  prCreation: 'not-pending',
   labels: ["dependencies"],
   separateMultipleMajor: true,
   separateMinorPatch: false,
