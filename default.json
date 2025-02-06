@@ -26,7 +26,7 @@
     "enabled": true
   },
   "gitIgnoredAuthors": [
-    "<114827586+autofix-ci[bot]@users.noreply.github.com>",
+    "<114827586+autofix-ci[bot]@users.noreply.github.com>"
   ],
   "packageRules": [
     {
@@ -50,9 +50,9 @@
       ],
       "semanticCommitScope": "",
       "semanticCommitType": "ci"
-    },
+    }
   ],
   "vulnerabilityAlerts": {
     "enabled": true
-  },
+  }
 }
