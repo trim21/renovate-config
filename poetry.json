@@ -18,10 +18,6 @@
   },
   "packageRules": [
     {
-      "matchDatasources": ["npm"],
-      "minimumReleaseAge": "3 days"
-    },
-    {
       "groupName": "grpc",
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["grpcio", "grpcio-tools"]
