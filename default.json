@@ -14,7 +14,7 @@
   "timezone": "Asia/Shanghai",
   "semanticCommits": "enabled",
   "minimumReleaseAge": "3 days",
-  "internalChecksFilter": "strict",
+  "internalChecksFilter": "flexible",
   "prCreation": "not-pending",
   "labels": [
     "dependencies"
