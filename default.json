@@ -28,6 +28,9 @@
   "gitIgnoredAuthors": [
     "<114827586+autofix-ci[bot]@users.noreply.github.com>"
   ],
+  "lockFileMaintenance": {
+    "semanticCommitType": "build"
+  },
   "packageRules": [
     {
       "semanticCommitType": "chore",
