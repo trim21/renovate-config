@@ -28,7 +28,7 @@
       matchPackageNames: ["*"],
     },
     {
-      matchDepTypes: ["dependencies", "require", "project.dependencies"],
+      matchDepTypes: ["dependencies", "require", "project.dependencies", "lockFileMaintenance"],
       semanticCommitType: "build",
     },
     {
