@@ -28,7 +28,7 @@
       matchPackageNames: ["*"],
     },
     {
-      matchDepTypes: ["dependencies", "require"],
+      matchDepTypes: ["dependencies", "require", "project.dependencies"],
       semanticCommitType: "build",
     },
     {
