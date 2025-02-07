@@ -66,8 +66,9 @@
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests",
       "matchPackageNames": [
-        "vitest-{/,}**",
-        "@vitest/{/,}**"
+        "vitest",
+        "vitest-**",
+        "@vitest/**"
       ]
     },
     {
