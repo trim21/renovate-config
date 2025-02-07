@@ -53,6 +53,14 @@
       ],
       "semanticCommitScope": "",
       "semanticCommitType": "ci"
+    },
+    {
+      "matchManagers": [
+        "pre-commit"
+      ],
+      "semanticCommitType": "chore",
+      "groupName": "pre-commit",
+      "semanticCommitScope": ""
     }
   ],
   "vulnerabilityAlerts": {
