@@ -65,6 +65,13 @@
       "semanticCommitType": "chore",
       "groupName": "pre-commit",
       "semanticCommitScope": ""
+    },
+    {
+      "matchManagers": [
+        "dockerfile"
+      ],
+      "pinDigests": true,
+      "rangeStrategy": "pin"
     }
   ],
   "vulnerabilityAlerts": {

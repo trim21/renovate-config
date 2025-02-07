@@ -13,13 +13,6 @@
         "minor"
       ],
       "enabled": false
-    },
-    {
-      "matchManagers": [
-        "dockerfile"
-      ],
-      "pinDigests": true,
-      "rangeStrategy": "pin"
     }
   ]
 }
