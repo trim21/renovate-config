@@ -21,13 +21,13 @@
   ],
   "separateMultipleMajor": true,
   "separateMinorPatch": false,
-  "semanticCommitType": "chore",
   "pre-commit": {
     "enabled": true
   },
   "gitIgnoredAuthors": [
     "<114827586+autofix-ci[bot]@users.noreply.github.com>"
   ],
+  "semanticCommitType": "build",
   "lockFileMaintenance": {
     "semanticCommitType": "build"
   },
