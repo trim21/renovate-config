@@ -10,7 +10,9 @@
       ],
       "matchUpdateTypes": [
         "major",
-        "minor"
+        "minor",
+        "bump",
+        "replacement"
       ],
       "enabled": false
     }
