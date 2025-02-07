@@ -43,6 +43,12 @@
       ]
     },
     {
+      "matchManagers": [
+        "gomod"
+      ],
+      "semanticCommitType": "build"
+    },
+    {
       "matchDepTypes": [
         "dependencies",
         "require",

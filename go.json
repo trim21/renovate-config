@@ -5,11 +5,5 @@
     "semanticCommitType": "build",
     "automerge": true,
     "enabled": true
-  },
-  "packageRules": [
-    {
-      "matchManagers": ["gomod"],
-      "semanticCommitType": "build"
-    }
-  ]
+  }
 }
