@@ -80,8 +80,9 @@
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests",
       "matchPackageNames": [
-        "jest-{/,}**",
-        "@jest/{/,}**"
+        "jest",
+        "jest-**",
+        "@jest/**"
       ]
     },
     {
@@ -92,8 +93,9 @@
       "semanticCommitScope": "deps",
       "semanticCommitType": "build",
       "matchPackageNames": [
-        "rollup-{/,}**",
-        "@rollup/{/,}**"
+        "rollup",
+        "rollup-**",
+        "@rollup/**"
       ]
     },
     {
@@ -104,9 +106,9 @@
       "semanticCommitScope": "deps",
       "semanticCommitType": "build",
       "matchPackageNames": [
-        "esbuild-{/,}**",
-        "@esbuild-kit/{/,}**",
-        "@esbuild/{/,}**"
+        "esbuild",
+        "esbuild-**",
+        "@esbuild/**"
       ]
     },
     {
