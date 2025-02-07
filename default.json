@@ -20,6 +20,7 @@
     "dependencies"
   ],
   "separateMultipleMajor": true,
+  "separateMajorMinor": true,
   "separateMinorPatch": false,
   "pre-commit": {
     "enabled": true
