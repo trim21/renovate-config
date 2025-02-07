@@ -17,10 +17,6 @@
       "enabled": false
     },
     {
-      "matchManagers": ["npm"],
-      "semanticCommitType": "build"
-    },
-    {
       "groupName": "eslint",
       "semanticCommitScope": "deps",
       "semanticCommitType": "style",
