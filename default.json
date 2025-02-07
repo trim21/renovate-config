@@ -9,7 +9,7 @@
   "timezone": "Asia/Shanghai",
   "semanticCommits": "enabled",
   "minimumReleaseAge": "3 days",
-  "internalChecksFilter": "none",
+  "internalChecksFilter": "flexible",
   "prCreation": "immediate",
   "labels": ["dependencies"],
   "separateMultipleMajor": true,
