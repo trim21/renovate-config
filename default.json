@@ -1,33 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    ":dependencyDashboard"
-  ],
+  "extends": ["config:recommended", ":dependencyDashboard"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
-  "assignees": [
-    "@trim21"
-  ],
+  "assignees": ["@trim21"],
   "platformCommit": "enabled",
   "recreateWhen": "always",
   "timezone": "Asia/Shanghai",
   "semanticCommits": "enabled",
   "minimumReleaseAge": "3 days",
   "internalChecksFilter": "none",
-  "prCreation": "not-pending",
-  "labels": [
-    "dependencies"
-  ],
+  "prCreation": "immediate",
+  "labels": ["dependencies"],
   "separateMultipleMajor": true,
   "separateMajorMinor": true,
   "separateMinorPatch": false,
   "pre-commit": {
     "enabled": true
   },
-  "gitIgnoredAuthors": [
-    "<114827586+autofix-ci[bot]@users.noreply.github.com>"
-  ],
+  "gitIgnoredAuthors": ["<114827586+autofix-ci[bot]@users.noreply.github.com>"],
   "semanticCommitType": "chore",
   "lockFileMaintenance": {
     "semanticCommitType": "build"
@@ -38,14 +29,10 @@
   "packageRules": [
     {
       "semanticCommitType": "chore",
-      "matchPackageNames": [
-        "*"
-      ]
+      "matchPackageNames": ["*"]
     },
     {
-      "matchManagers": [
-        "gomod"
-      ],
+      "matchManagers": ["gomod"],
       "semanticCommitType": "build"
     },
     {
@@ -58,24 +45,18 @@
       "semanticCommitType": "build"
     },
     {
-      "matchManagers": [
-        "github-actions"
-      ],
+      "matchManagers": ["github-actions"],
       "semanticCommitScope": "",
       "semanticCommitType": "ci"
     },
     {
-      "matchManagers": [
-        "pre-commit"
-      ],
+      "matchManagers": ["pre-commit"],
       "semanticCommitType": "chore",
       "groupName": "pre-commit",
       "semanticCommitScope": ""
     },
     {
-      "matchManagers": [
-        "dockerfile"
-      ],
+      "matchManagers": ["dockerfile"],
       "pinDigests": true,
       "rangeStrategy": "pin"
     }
