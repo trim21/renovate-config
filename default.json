@@ -15,7 +15,6 @@
   "pre-commit": {
     "enabled": true
   },
-  "gitIgnoredAuthors": ["<114827586+autofix-ci[bot]@users.noreply.github.com>"],
   "semanticCommitType": "chore",
   "lockFileMaintenance": {
     "semanticCommitType": "build"
