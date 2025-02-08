@@ -19,6 +19,11 @@
       "groupName": "asyncpg",
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["asyncpg", "asyncpg-stubs"]
+    },
+    {
+      "groupName": "asyncpg",
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["pytest", "pytest-**"]
     }
   ]
 }
