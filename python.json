@@ -1,22 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "pyenv":{
+  "pyenv": {
     "enabled": false
   },
   "packageRules": [
     {
-      "matchManagers": [
-        "dockerfile"
-      ],
-      "matchPackageNames": [
-        "python"
-      ],
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "bump",
-        "replacement"
-      ],
+      "matchManagers": ["dockerfile"],
+      "matchPackageNames": ["python"],
+      "matchUpdateTypes": ["major", "minor", "bump"],
       "enabled": false
     }
   ]
