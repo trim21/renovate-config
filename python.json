@@ -31,7 +31,7 @@
     },
     {
       "matchDatasources": ["pypi"],
-      "matchPackageNames": ["botocore", "botocore"]
+      "matchPackageNames": ["botocore", "botocore-stubs"]
     }
   ]
 }
