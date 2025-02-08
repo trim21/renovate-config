@@ -26,10 +26,12 @@
       "matchPackageNames": ["pytest", "pytest-**"]
     },
     {
+      "groupName": "six",
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["six", "types-six"]
     },
     {
+      "groupName": "botocore",
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["botocore", "botocore-stubs"]
     }
