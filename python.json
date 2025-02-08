@@ -9,6 +9,16 @@
       "matchPackageNames": ["python"],
       "matchUpdateTypes": ["major", "minor", "bump"],
       "enabled": false
+    },
+    {
+      "groupName": "grpc",
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["grpcio", "grpcio-tools"]
+    },
+    {
+      "groupName": "asyncpg",
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["asyncpg", "asyncpg-stubs"]
     }
   ]
 }
