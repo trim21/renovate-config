@@ -29,7 +29,7 @@
       "matchPackageNames": ["*"]
     },
     {
-      "matchManagers": ["gomod"],
+      "matchManagers": ["gomod", "dockerfile"],
       "semanticCommitType": "build"
     },
     {
