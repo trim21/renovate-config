@@ -28,6 +28,10 @@
     {
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["six", "types-six"]
+    },
+    {
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["botocore", "botocore"]
     }
   ]
 }
