@@ -4,24 +4,16 @@
     "semanticCommitType": "build",
     "enabled": true
   },
-  "postUpdateOptions": [
-    "yarnDedupeHighest"
-  ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "packageRules": [
     {
-      "matchDatasources": [
-        "docker"
-      ],
-      "matchDepNames": [
-        "node"
-      ],
+      "matchDatasources": ["docker"],
+      "matchDepNames": ["node"],
       "matchUpdateTypes": "major",
       "enabled": false
     },
     {
-      "matchDepTypes": [
-        "engines"
-      ],
+      "matchDepTypes": ["engines"],
       "enabled": false
     },
     {
@@ -40,101 +32,55 @@
       "groupName": "formatter deps",
       "semanticCommitScope": "deps",
       "semanticCommitType": "style",
-      "matchPackageNames": [
-        "prettier",
-        "prettier{/,}**"
-      ]
+      "matchPackageNames": ["prettier", "prettier{/,}**"]
     },
     {
       "groupName": "vite",
-      "matchDepNames": [
-        "vite"
-      ],
+      "matchDepNames": ["vite"],
       "semanticCommitScope": "",
       "semanticCommitType": "build",
-      "matchPackageNames": [
-        "vite",
-        "vite-**",
-        "@vitejs/**"
-      ]
+      "matchPackageNames": ["vite", "vite-**", "@vitejs/**"]
     },
     {
       "groupName": "vitest",
-      "matchDepNames": [
-        "vitest"
-      ],
+      "matchDepNames": ["vitest"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests",
-      "matchPackageNames": [
-        "vitest",
-        "vitest-**",
-        "@vitest/**"
-      ]
+      "matchPackageNames": ["vitest", "vitest-**", "@vitest/**"]
     },
     {
       "groupName": "jest",
-      "matchDepNames": [
-        "ts-jest",
-        "jest"
-      ],
+      "matchDepNames": ["ts-jest", "jest"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "tests",
-      "matchPackageNames": [
-        "jest",
-        "jest-**",
-        "@jest/**"
-      ]
+      "matchPackageNames": ["jest", "jest-**", "@jest/**"]
     },
     {
       "groupName": "rollup",
-      "matchDepNames": [
-        "rollup"
-      ],
+      "matchDepNames": ["rollup"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "build",
-      "matchPackageNames": [
-        "rollup",
-        "rollup-**",
-        "@rollup/**"
-      ]
+      "matchPackageNames": ["rollup", "rollup-**", "@rollup/**"]
     },
     {
       "groupName": "esbuild",
-      "matchDepNames": [
-        "esbuild"
-      ],
+      "matchDepNames": ["esbuild"],
       "semanticCommitScope": "deps",
       "semanticCommitType": "build",
-      "matchPackageNames": [
-        "esbuild",
-        "esbuild-**",
-        "@esbuild/**"
-      ]
+      "matchPackageNames": ["esbuild", "esbuild-**", "@esbuild/**"]
     },
     {
       "semanticCommitScope": "deps",
       "groupName": "deps-dev",
       "semanticCommitType": "chore",
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "matchPackageNames": [
-        "!typescript"
-      ]
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": ["!typescript"]
     },
     {
       "semanticCommitScope": "deps",
       "groupName": "deps",
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "pin",
-        "pinDigest"
-      ],
-      "matchDepTypes": [
-        "dependencies"
-      ]
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
+      "matchDepTypes": ["dependencies"]
     }
   ]
 }
