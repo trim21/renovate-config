@@ -49,7 +49,7 @@
     {
       "matchManagers": ["pre-commit"],
       "semanticCommitType": "chore",
-      "groupName": "pre-commit",
+      "groupName": "pre-commit hooks",
       "semanticCommitScope": ""
     },
     {
