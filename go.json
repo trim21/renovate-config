@@ -8,6 +8,7 @@
   },
   "packageRules": [
     {
+      "enabled": false,
       "matchPackageNames": ["go"],
       "matchDepTypes": ["toolchain"]
     }
