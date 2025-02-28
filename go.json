@@ -5,5 +5,11 @@
     "semanticCommitType": "build",
     "automerge": true,
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["go"],
+      "matchDepTypes": ["toolchain"]
+    }
+  ]
 }
