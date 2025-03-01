@@ -8,15 +8,14 @@
       "fileFormat": "toml",
       "matchStrings": ["toolchain.{'currentValue': channel}"],
       "depNameTemplate": "rust",
-      "packageNameTemplate": "rust",
-      "lookupNameTemplate": "rust-lang/rust",
+      "packageNameTemplate": "rust-lang/rust",
       "datasourceTemplate": "github-tags"
     }
   ],
   "packageRules": [
     {
       "semanticCommitType": "build",
-      "matchPackageNames": ["rust"]
+      "matchPackageNames": ["rust-lang/rust"]
     }
   ]
 }
