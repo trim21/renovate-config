@@ -6,7 +6,7 @@
       "customType": "jsonata",
       "fileMatch": ["(^|/)rust-toolchain\\.toml?$"],
       "fileFormat": "toml",
-      "matchStrings": ["toolchain.channel"],
+      "matchStrings": ["toolchain.{'currentValue': channel}"],
       "depNameTemplate": "rust",
       "packageNameTemplate": "rust",
       "lookupNameTemplate": "rust-lang/rust",
