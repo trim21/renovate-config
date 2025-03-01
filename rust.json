@@ -3,6 +3,7 @@
   "description": "Upgrades the `channel` field in the `rust-toolchain.toml` file",
   "customManagers": [
     {
+      "customType": "jsonata",
       "fileMatch": ["(^|/)rust-toolchain\\.toml?$"],
       "fileFormat": "toml",
       "matchStrings": ["toolchain.channel"],
