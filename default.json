@@ -55,6 +55,11 @@
       "matchManagers": ["dockerfile"],
       "pinDigests": true,
       "rangeStrategy": "pin"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["toolchain"],
+      "separateMinorPatch": true
     }
   ],
   "vulnerabilityAlerts": {
