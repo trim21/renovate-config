@@ -34,7 +34,7 @@
       "matchDepTypes": [
         "uses-with"
       ],
-      "matchUpdateTypes": "pin",
+      "matchUpdateTypes": "bump",
       "enabled": false
     },
     {
