@@ -2505,12 +2505,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.13.8, @types/node@npm:>=13.7.0":
-  version: 22.13.8
-  resolution: "@types/node@npm:22.13.8"
+"@types/node@npm:*, @types/node@npm:22.13.10, @types/node@npm:>=13.7.0":
+  version: 22.13.10
+  resolution: "@types/node@npm:22.13.10"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/bfc92b734a9dce6ac5daee0a52feccdf5dcb3804d895e4bc5384e2f4644612b8801725cd03c8c3c0888fb5eeb16b875877ac44b77641e0196dc1a837b1c2a366
+  checksum: 10c0/a3865f9503d6f718002374f7b87efaadfae62faa499c1a33b12c527cfb9fd86f733e1a1b026b80c5a0e4a965701174bc3305595a7d36078aa1abcf09daa5dee9
   languageName: node
   linkType: hard
 
@@ -2581,17 +2581,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@yarnpkg/core@npm:4.2.0"
+"@yarnpkg/core@npm:4.2.1":
+  version: 4.2.1
+  resolution: "@yarnpkg/core@npm:4.2.1"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.1.1"
-    "@yarnpkg/libzip": "npm:^3.1.0"
-    "@yarnpkg/parsers": "npm:^3.0.2"
-    "@yarnpkg/shell": "npm:^4.1.1"
+    "@yarnpkg/fslib": "npm:^3.1.2"
+    "@yarnpkg/libzip": "npm:^3.1.1"
+    "@yarnpkg/parsers": "npm:^3.0.3"
+    "@yarnpkg/shell": "npm:^4.1.2"
     camelcase: "npm:^5.3.1"
     chalk: "npm:^3.0.0"
     ci-info: "npm:^4.0.0"
@@ -2611,48 +2611,48 @@ __metadata:
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
     tunnel: "npm:^0.0.6"
-  checksum: 10c0/9b87c982180201ed3d65d26eee017d645ee2841e336579057ee1fb84ab07837397eee05cdd08c9d2b174e451a72947eff9123e401ddbd28410b8ff37ffc7ee9e
+  checksum: 10c0/6943450ea0955cffb71e64c0154ecb81721ce8e9a6b4575d357d26732e1c632b805b52d305fd09e55607d38fba169cc680ad84ff3ca48d23a146ccda0a0e1b5e
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.1.0, @yarnpkg/fslib@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@yarnpkg/fslib@npm:3.1.1"
+"@yarnpkg/fslib@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "@yarnpkg/fslib@npm:3.1.2"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 10c0/e7478066397161a18e05c5041a09fd4362d0fa49650ffdfd9b70d5cf6e10628624d7065c28cac1ef654048e2c9b369ed0c0df8e73c57ad3fac4e90b790a61e2c
+  checksum: 10c0/fc19a2b62abfda45eabe08b05335ddbfafd27110657c1faa7b2924ecf1ff99118398e4af7706b9d78703956f99e1fba4666ec3be90174009ee94307fb5608b06
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@yarnpkg/libzip@npm:3.1.0"
+"@yarnpkg/libzip@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@yarnpkg/libzip@npm:3.1.1"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.1.0"
+    "@yarnpkg/fslib": "npm:^3.1.2"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.1.0
-  checksum: 10c0/11e12724d916584e748dc3cb364840f3763799492108b39b008301b817e43689d34a68d7ecb1cab9610cc058aa5967e5088658774ae0fbe77a18b8cdb5ad382a
+    "@yarnpkg/fslib": ^3.1.2
+  checksum: 10c0/819ad37fbba51f4d7f65fff02b80cd7eb94134d7f7672a8b664a0672f12e710223ff9a8adb4ca565fd6aaa3432e74e964ee71d5ed929e900657c3a9fde9a381d
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:3.0.2, @yarnpkg/parsers@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@yarnpkg/parsers@npm:3.0.2"
+"@yarnpkg/parsers@npm:3.0.3, @yarnpkg/parsers@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "@yarnpkg/parsers@npm:3.0.3"
   dependencies:
     js-yaml: "npm:^3.10.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/a0c340e13129643162423d7e666061c0b39b143bfad3fc5a74c7d92a30fd740f6665d41cd4e61832c20375889d793eea1d1d103cacb39ed68f7acd168add8c53
+  checksum: 10c0/70c2fa011bf28a517a8ee4264dd93d7590f6e3d02c6d4feb50533f405ca3b100cb156f11405b9a34f7c51c6893d3d8b051554dddfd5afaae2067f921512447a3
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "@yarnpkg/shell@npm:4.1.1"
+"@yarnpkg/shell@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "@yarnpkg/shell@npm:4.1.2"
   dependencies:
-    "@yarnpkg/fslib": "npm:^3.1.1"
-    "@yarnpkg/parsers": "npm:^3.0.2"
+    "@yarnpkg/fslib": "npm:^3.1.2"
+    "@yarnpkg/parsers": "npm:^3.0.3"
     chalk: "npm:^3.0.0"
     clipanion: "npm:^4.0.0-rc.2"
     cross-spawn: "npm:^7.0.3"
@@ -2661,7 +2661,7 @@ __metadata:
     tslib: "npm:^2.4.0"
   bin:
     shell: ./lib/cli.js
-  checksum: 10c0/1cbf13dcf44e6369c452a41352d54f22efe8e4d6e7d835eb5e257d55fea4cc0cffcfdf334743fd46cad08ed5d9ca83dfe5be4649f3b3545c57b4a2f34d72915b
+  checksum: 10c0/4d2116cf6637a38b15bc994a9e86535359ac654714a1c737bf2a3a8b7d80e8b0cc1a515567fb2522395f8e42aecec0ad14d2f54dc51f583215e87128e4dada87
   languageName: node
   linkType: hard
 
@@ -3360,12 +3360,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:2.54.0":
-  version: 2.54.0
-  resolution: "cronstrue@npm:2.54.0"
+"cronstrue@npm:2.56.0":
+  version: 2.56.0
+  resolution: "cronstrue@npm:2.56.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10c0/1317b64003c368098c779493d6213804794da012b97c4e82b4b932560103d4b4168994bbc8dbef8deb956b4894dae8c4508ccdbe2a4a8e8ded0d680e9c63e54a
+  checksum: 10c0/383a3fb3a307aa78182f31ac71523bb01fb0af8092f2014b1671821da82e2a675aa17af570b07b2cd5a8e59cb06f7db157df1aeef9a9693efc6e45966046b565
   languageName: node
   linkType: hard
 
@@ -4308,10 +4308,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graph-data-structure@npm:4.3.1":
-  version: 4.3.1
-  resolution: "graph-data-structure@npm:4.3.1"
-  checksum: 10c0/1230dbacdc4014a6c6c1200d6e4aedac93b2e65a4a43c579d03542c08384155f9247c29acea04be48e7b3ebefaf941509c43cd6ff658030f4f8a11064024b561
+"graph-data-structure@npm:4.4.0":
+  version: 4.4.0
+  resolution: "graph-data-structure@npm:4.4.0"
+  checksum: 10c0/88c3d021ee6a5a1f3d2060fdc14fa6d48a5dd1b2e4d97d61df7001ebd7b3a9698f214b5b08be47e7e58132e632fa27aca0e24b5ac430add6bf0a0f0b30ec8619
   languageName: node
   linkType: hard
 
@@ -6304,21 +6304,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.5.1":
-  version: 3.5.1
-  resolution: "prettier@npm:3.5.1"
+"prettier@npm:3.5.3":
+  version: 3.5.3
+  resolution: "prettier@npm:3.5.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/9f6f810eae455d6e4213845151a484a2338f2e0d6a8b84ee8e13a83af8a2421ef6c1e31e61e4b135671fb57b9541f6624648880cc2061ac803e243ac898c0123
-  languageName: node
-  linkType: hard
-
-"prettier@npm:3.5.2":
-  version: 3.5.2
-  resolution: "prettier@npm:3.5.2"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 10c0/d7b597ed33f39c32ace675896ad187f06a3e48dc8a1e80051b5c5f0dae3586d53981704b8fda5ac3b080e6c2e0e197d239131b953702674f044351621ca5e1ac
+  checksum: 10c0/3880cb90b9dc0635819ab52ff571518c35bd7f15a6e80a2054c05dbc8a3aa6e74f135519e91197de63705bcb38388ded7e7230e2178432a1468005406238b877
   languageName: node
   linkType: hard
 
@@ -6607,17 +6598,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-config@workspace:."
   dependencies:
-    "@types/node": "npm:22.13.8"
+    "@types/node": "npm:22.13.10"
     husky: "npm:9.1.7"
     lint-staged: "npm:15.4.3"
-    prettier: "npm:3.5.2"
-    renovate: "npm:39.185.0"
+    prettier: "npm:3.5.3"
+    renovate: "npm:39.196.0"
   languageName: unknown
   linkType: soft
 
-"renovate@npm:39.185.0":
-  version: 39.185.0
-  resolution: "renovate@npm:39.185.0"
+"renovate@npm:39.196.0":
+  version: 39.196.0
+  resolution: "renovate@npm:39.196.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.738.0"
     "@aws-sdk/client-ec2": "npm:3.738.0"
@@ -6645,8 +6636,8 @@ __metadata:
     "@renovatebot/pep440": "npm:4.1.0"
     "@renovatebot/ruby-semver": "npm:4.0.0"
     "@sindresorhus/is": "npm:4.6.0"
-    "@yarnpkg/core": "npm:4.2.0"
-    "@yarnpkg/parsers": "npm:3.0.2"
+    "@yarnpkg/core": "npm:4.2.1"
+    "@yarnpkg/parsers": "npm:3.0.3"
     agentkeepalive: "npm:4.6.0"
     aggregate-error: "npm:3.1.0"
     async-mutex: "npm:0.5.0"
@@ -6662,7 +6653,7 @@ __metadata:
     commander: "npm:13.1.0"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:9.0.0"
-    cronstrue: "npm:2.54.0"
+    cronstrue: "npm:2.56.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:6.1.0"
@@ -6683,7 +6674,7 @@ __metadata:
     good-enough-parser: "npm:1.1.23"
     google-auth-library: "npm:9.15.1"
     got: "npm:11.8.6"
-    graph-data-structure: "npm:4.3.1"
+    graph-data-structure: "npm:4.4.0"
     handlebars: "npm:4.7.8"
     ignore: "npm:7.0.3"
     ini: "npm:5.0.0"
@@ -6708,7 +6699,7 @@ __metadata:
     p-queue: "npm:6.6.2"
     p-throttle: "npm:4.1.1"
     parse-link-header: "npm:2.0.0"
-    prettier: "npm:3.5.1"
+    prettier: "npm:3.5.3"
     protobufjs: "npm:7.4.0"
     punycode: "npm:2.3.1"
     re2: "npm:1.21.4"
@@ -6742,7 +6733,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/26d3c8cef640e32e2aef16cd0f97044370f97c5cd6991663f15a6b66feda807b339143e9c28385b82a0ad1c9d9f14b7127ec70d7dfef46291a644c23f9f61f38
+  checksum: 10c0/078606104d8fae4bdabe6236d8892f8b2dd483f240f88bdd85864f0ff5972c36ba616067e749e90c635968895740c1ec83bbc6ca794be30822cc95b33a4b81fa
   languageName: node
   linkType: hard
 
