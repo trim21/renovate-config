@@ -34,8 +34,14 @@
       "matchDepTypes": [
         "uses-with"
       ],
-      "matchUpdateTypes": "bump",
       "enabled": false
+    },
+    {
+      "matchDepTypes": [
+        "uses-with"
+      ],
+      "matchCurrentValue": "\\d+\\.\\d+\\.\\d+",
+      "enabled": true
     },
     {
       "semanticCommitType": "chore",
