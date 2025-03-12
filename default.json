@@ -40,7 +40,7 @@
       "matchDepTypes": [
         "uses-with"
       ],
-      "matchCurrentValue": "\\d+\\.\\d+\\.\\d+",
+      "matchCurrentValue": "/^\\d+\\.\\d+\\.\\d+$/",
       "enabled": true
     },
     {
