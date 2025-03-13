@@ -17,11 +17,6 @@
       "matchCurrentVersion": ">=1.23.0",
       "matchUpdateTypes": ["minor"],
       "enabled": false
-    },
-    {
-      "separateMinorPatch": true,
-      "matchPackageNames": ["go"],
-      "matchDepTypes": ["toolchain"]
     }
   ]
 }
