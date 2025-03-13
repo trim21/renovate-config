@@ -1,6 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
+  "postUpdateOptions": [
+    "gomodTidy",
+    "gomodUpdateImportPaths"
+  ],
   "lockFileMaintenance": {
     "semanticCommitType": "build",
     "automerge": true,
@@ -15,9 +18,22 @@
       "rangeStrategy": "bump"
     },
     {
+      "matchDatasources": [
+        "golang-version"
+      ],
+      "matchCurrentVersion": "1.23.*",
+      "minor": {
+        "enabled": false
+      }
+    },
+    {
       "separateMinorPatch": true,
-      "matchPackageNames": ["go"],
-      "matchDepTypes": ["toolchain"]
+      "matchPackageNames": [
+        "go"
+      ],
+      "matchDepTypes": [
+        "toolchain"
+      ]
     }
   ]
 }
