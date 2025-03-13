@@ -8,6 +8,13 @@
   },
   "packageRules": [
     {
+      "matchDatasources": [
+        "golang-version"
+      ],
+      "separateMinorPatch": true,
+      "rangeStrategy": "bump"
+    },
+    {
       "separateMinorPatch": true,
       "matchPackageNames": ["go"],
       "matchDepTypes": ["toolchain"]
