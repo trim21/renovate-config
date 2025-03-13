@@ -7,5 +7,20 @@
   "pin": {
     "automerge": true
   },
-  "updatePinnedDependencies": true
+  "updatePinnedDependencies": true,
+  "packageRules": [
+    {
+      "matchManagers": ["gomod"],
+      "matchDatasources": ["golang-version"],
+      "separateMinorPatch": true,
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchDatasources": ["golang-version"],
+      "matchCurrentVersion": "1.23",
+      "matchUpdateTypes": ["minor"],
+      "enabled": false
+    }
+  ]
 }
