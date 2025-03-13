@@ -15,9 +15,8 @@
     {
       "matchDatasources": ["golang-version"],
       "matchCurrentVersion": ">=1.23.0",
-      "minor": {
-        "enabled": false
-      }
+      "matchUpdateTypes": ["minor"],
+      "enabled": false
     },
     {
       "separateMinorPatch": true,
