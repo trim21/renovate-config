@@ -2,13 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "schedule": ["on the 1st day of the month"],
   "lockFileMaintenance": {
-    "schedule": ["every 3 months on the first day of the month"]
+    "schedule": ["* * * * 0,6"]
   },
   "timezone": "Asia/Shanghai",
   "packageRules": [
     {
       "matchUpdateTypes": ["pin"],
-      "schedule": ["at any time"]
+      "schedule": ["* * * * *"]
     }
   ]
 }
