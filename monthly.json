@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "schedule": ["on the 1st day of the month"],
+  "schedule": ["0 0 7 * *"],
   "lockFileMaintenance": {
     "schedule": ["* * * * 0,6"]
   },
