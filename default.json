@@ -1,21 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    ":dependencyDashboard"
-  ],
+  "extends": ["config:recommended", ":dependencyDashboard"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
-  "assignees": [
-    "@trim21"
-  ],
+  "assignees": ["@trim21"],
+  "updatePinnedDependencies": true,
   "platformCommit": "enabled",
   "recreateWhen": "always",
   "timezone": "Asia/Shanghai",
   "semanticCommits": "enabled",
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "separateMultipleMajor": true,
   "separateMajorMinor": true,
   "separateMinorPatch": false,
@@ -31,29 +25,20 @@
   },
   "packageRules": [
     {
-      "matchDepTypes": [
-        "uses-with"
-      ],
+      "matchDepTypes": ["uses-with"],
       "enabled": false
     },
     {
-      "matchDepTypes": [
-        "uses-with"
-      ],
+      "matchDepTypes": ["uses-with"],
       "matchCurrentValue": "/^\\d+\\.\\d+\\.\\d+$/",
       "enabled": true
     },
     {
       "semanticCommitType": "chore",
-      "matchPackageNames": [
-        "*"
-      ]
+      "matchPackageNames": ["*"]
     },
     {
-      "matchManagers": [
-        "gomod",
-        "dockerfile"
-      ],
+      "matchManagers": ["gomod", "dockerfile"],
       "semanticCommitType": "build"
     },
     {
@@ -66,24 +51,18 @@
       "semanticCommitType": "build"
     },
     {
-      "matchManagers": [
-        "github-actions"
-      ],
+      "matchManagers": ["github-actions"],
       "semanticCommitScope": "",
       "semanticCommitType": "ci"
     },
     {
-      "matchManagers": [
-        "pre-commit"
-      ],
+      "matchManagers": ["pre-commit"],
       "semanticCommitType": "chore",
       "groupName": "pre-commit hooks",
       "semanticCommitScope": ""
     },
     {
-      "matchManagers": [
-        "dockerfile"
-      ],
+      "matchManagers": ["dockerfile"],
       "pinDigests": true,
       "rangeStrategy": "pin"
     }

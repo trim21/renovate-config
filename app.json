@@ -7,7 +7,6 @@
   "pin": {
     "automerge": true
   },
-  "updatePinnedDependencies": true,
   "packageRules": [
     {
       "matchManagers": ["gomod"],
