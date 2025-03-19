@@ -9,6 +9,10 @@
     {
       "matchUpdateTypes": ["pin"],
       "schedule": ["* * * * *"]
+    },
+    {
+      "matchUpdateTypes": "lockFileMaintenance",
+      "automergeSchedule": ["* * * * 4"]
     }
   ]
 }
