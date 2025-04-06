@@ -25,6 +25,11 @@
   },
   "packageRules": [
     {
+      "matchDatasources": "pypi",
+      "matchDepTypes": ["build-system.requires"],
+      "rangeStrategy": "pin"
+    },
+    {
       "matchDepTypes": ["uses-with"],
       "enabled": false
     },

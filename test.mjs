@@ -6,7 +6,7 @@ fs.readdirSync(".")
   .filter((x) => x.endsWith(".json"))
   .filter((x) => x !== "package.json")
   .forEach((x) => {
-    cp.execSync("npx renovate-config-validator", {
+    cp.execSync("renovate-config-validator", {
       stdio: "inherit",
       env: {
         PATH: process.env.PATH ?? process.env.Path,
