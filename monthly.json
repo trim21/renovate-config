@@ -7,7 +7,7 @@
   "timezone": "Asia/Shanghai",
   "packageRules": [
     {
-      "matchUpdateTypes": ["pin"],
+      "matchUpdateTypes": ["pin", "pinDigest"],
       "schedule": ["* * * * *"]
     },
     {
