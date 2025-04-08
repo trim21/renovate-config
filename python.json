@@ -31,6 +31,12 @@
       "groupName": "botocore",
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["botocore", "botocore-stubs"]
+    },
+    {
+      "groupName": "sphinx",
+      "matchDatasources": ["pypi"],
+      "semanticCommitType": "docs",
+      "matchPackageNames": ["sphinx", "sphinx-**"]
     }
   ]
 }

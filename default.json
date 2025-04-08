@@ -29,6 +29,9 @@
   "pip_setup": {
     "enabled": false
   },
+  "pipenv": {
+    "enabled": false
+  },
   "semanticCommitType": "chore",
   "lockFileMaintenance": {
     "semanticCommitType": "build"
