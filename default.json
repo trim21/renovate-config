@@ -20,6 +20,15 @@
   "pre-commit": {
     "enabled": true
   },
+  "pyenv": {
+    "enabled": false
+  },
+  "pip-compile": {
+    "enabled": false
+  },
+  "pip_setup": {
+    "enabled": false
+  },
   "semanticCommitType": "chore",
   "lockFileMaintenance": {
     "semanticCommitType": "build"
