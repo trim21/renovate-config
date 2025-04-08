@@ -34,6 +34,7 @@
   },
   "semanticCommitType": "chore",
   "lockFileMaintenance": {
+    "enabled": true,
     "semanticCommitType": "build"
   },
   "git-submodules": {
