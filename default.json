@@ -11,6 +11,7 @@
   "updatePinnedDependencies": true,
   "platformCommit": "enabled",
   "recreateWhen": "always",
+  "rebaseWhen": "behind-base-branch",
   "timezone": "Asia/Shanghai",
   "semanticCommits": "enabled",
   "labels": ["dependencies"],
