@@ -37,6 +37,10 @@
       "matchDatasources": ["pypi"],
       "semanticCommitType": "docs",
       "matchPackageNames": ["sphinx", "sphinx-**"]
+    },
+    {
+      "matchDepTypes": ["requires-python"],
+      "enabled": false
     }
   ]
 }
