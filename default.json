@@ -17,6 +17,14 @@
   "pre-commit": {
     "enabled": true
   },
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**",
+    "**/examples/**",
+    "**/__tests__/**",
+    "**/__fixtures__/**"
+  ],
   "pyenv": {
     "enabled": false
   },
