@@ -49,6 +49,7 @@
     {
       "matchDatasources": "pypi",
       "matchDepTypes": ["build-system.requires"],
+      "enabled": true,
       "rangeStrategy": "pin"
     },
     {
