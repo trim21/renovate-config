@@ -37,6 +37,9 @@
   "pipenv": {
     "enabled": false
   },
+  "poetry": {
+    "enabled": false
+  },
   "semanticCommitType": "chore",
   "lockFileMaintenance": {
     "enabled": true,
