@@ -36,7 +36,7 @@
       "groupName": "sphinx",
       "matchDatasources": ["pypi"],
       "semanticCommitType": "docs",
-      "matchPackageNames": ["sphinx", "sphinx-**"]
+      "matchPackageNames": ["sphinx", "sphinx-**", "furo"]
     }
   ]
 }
