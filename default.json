@@ -88,7 +88,6 @@
     },
     {
       "matchManagers": ["pre-commit"],
-      "matchFileNames": [".pre-commit-config.yaml", ".pre-commit-config.yml"],
       "semanticCommitType": "chore",
       "groupName": "pre-commit hooks",
       "semanticCommitScope": ""
