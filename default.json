@@ -62,7 +62,7 @@
     },
     {
       "matchDepTypes": ["uses-with"],
-      "matchCurrentValue": "/^\\d+\\.\\d+\\.\\d+$/",
+      "matchCurrentValue": "/^v?\\d+\\.\\d+\\.\\d+$/",
       "enabled": true
     },
     {
