@@ -57,6 +57,7 @@
     },
     {
       "matchDepTypes": ["uses-with"],
+      "matchPackageNames": ["python"],
       "enabled": false
     },
     {
