@@ -57,7 +57,7 @@
     },
     {
       "matchDepTypes": ["uses-with"],
-      "matchPackageNames": ["actions/python-versions"],
+      "matchPackageNames": ["actions/python-versions", "actions/node-versions"],
       "enabled": false
     },
     {
