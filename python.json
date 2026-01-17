@@ -28,6 +28,11 @@
       "matchPackageNames": ["six", "types-six"]
     },
     {
+      "groupName": "regex",
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["regex", "types-regex"]
+    },
+    {
       "groupName": "botocore",
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["botocore", "botocore-stubs"]
