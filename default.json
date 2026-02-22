@@ -44,7 +44,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "branchTopic": "lockfile-maintenance-{{{manager}}}",
-    "commitMessageAction": "{{{manager}}}",
+    "commitMessageAction": "{{{manager}}} lock file maintaince",
     "semanticCommitType": "build"
   },
   "git-submodules": {
