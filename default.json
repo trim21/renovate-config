@@ -43,6 +43,7 @@
   "semanticCommitType": "chore",
   "lockFileMaintenance": {
     "enabled": true,
+    "branchTopic": "lockfile-maintenance-{{{manager}}}",
     "semanticCommitType": "build"
   },
   "git-submodules": {
