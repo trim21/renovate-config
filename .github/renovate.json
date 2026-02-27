@@ -8,5 +8,10 @@
     "github>trim21/renovate-config:python",
     "github>trim21/renovate-config:monthly"
   ],
-  "automerge": true
+  "automerge": true,
+  "labels": [
+    "ci:auto-merge",
+    "dependencies"
+  ],
+  "prConcurrentLimit": 3
 }
