@@ -50,7 +50,12 @@
   "git-submodules": {
     "enabled": true
   },
+  "prPriority": 5,
   "packageRules": [
+    {
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "prPriority": 4
+    },
     {
       "matchDatasources": "pypi",
       "matchDepTypes": ["build-system.requires"],
