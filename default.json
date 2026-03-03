@@ -52,7 +52,7 @@
   },
   "packageRules": [
     {
-      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "prPriority": 5
     },
     {
