@@ -33,9 +33,14 @@
       "matchPackageNames": ["regex", "types-regex"]
     },
     {
-      "groupName": "botocore",
+      "groupName": "boto",
       "matchDatasources": ["pypi"],
-      "matchPackageNames": ["botocore", "botocore-stubs"]
+      "matchPackageNames": [
+        "botocore",
+        "botocore-stubs",
+        "boto3",
+        "mypy-boto3-s3"
+      ]
     },
     {
       "groupName": "requests",
