@@ -11,10 +11,10 @@
     "test": "node test.mjs"
   },
   "devDependencies": {
-    "@types/node": "24.12.4",
+    "@types/node": "24.13.2",
     "husky": "9.1.7",
-    "lint-staged": "17.0.7",
-    "prettier": "3.8.3"
+    "lint-staged": "17.0.8",
+    "prettier": "3.9.4"
   },
   "lint-staged": {
     "*.{md,html,js,ts,tsx,css,less,cjs,mjs,yaml,yml,json,json5}": "prettier --write"
