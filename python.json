@@ -3,6 +3,7 @@
   "packageRules": [
     {
       "matchManagers": ["pep621"],
+      "matchDatasources": ["pypi"],
       "matchUpdateTypes": ["minor", "patch", "pin"],
       "groupName": "python dependencies"
     },
