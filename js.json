@@ -81,6 +81,10 @@
       "groupName": "deps",
       "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
       "matchDepTypes": ["dependencies"]
+    },
+    {
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7"
     }
   ]
 }
