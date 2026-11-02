@@ -99,6 +99,16 @@
       "semanticCommitType": "ci"
     },
     {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "pinDigest", "digest"],
+      "groupName": "github actions"
+    },
+    {
+      "matchManagers": ["dockerfile"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "pinDigest", "digest"],
+      "groupName": "dockerfile"
+    },
+    {
       "matchManagers": ["pre-commit"],
       "semanticCommitType": "chore",
       "groupName": "pre-commit hooks",
