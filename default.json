@@ -118,6 +118,14 @@
       "matchManagers": ["dockerfile"],
       "pinDigests": true,
       "rangeStrategy": "pin"
+    },
+    {
+      "matchDatasources": ["github-tags", "github-releases"],
+      "versioning": "pep440"
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "versioning": "github-actions"
     }
   ],
   "vulnerabilityAlerts": {
