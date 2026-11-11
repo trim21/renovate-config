@@ -16,7 +16,3 @@ out
 gen
 
 node_modules
-
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
