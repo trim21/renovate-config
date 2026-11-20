@@ -54,7 +54,7 @@
   "packageRules": [
     {
       "matchManagers": "woodpecker",
-      "matchPackageNames": ["ghcr.io/renovatebot/renovate:44-full"],
+      "matchPackageNames": ["ghcr.io/renovatebot/renovate"],
       "matchDatasources": "docker",
       "matchUpdateTypes": "pinDigest",
       "enabled": false
