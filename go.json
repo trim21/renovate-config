@@ -7,6 +7,12 @@
       "matchDatasources": ["go"],
       "matchUpdateTypes": ["minor", "patch", "pin"],
       "groupName": "go modules"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchDatasources": ["golang-version"],
+      "rangeStrategy": "bump",
+      "allowedVersions": "<1.28"
     }
   ]
 }
