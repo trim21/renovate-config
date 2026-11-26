@@ -9,14 +9,8 @@
       "matchManagers": ["gomod"],
       "matchDatasources": ["golang-version"],
       "separateMinorPatch": true,
-      "rangeStrategy": "bump"
-    },
-    {
-      "matchManagers": ["gomod"],
-      "matchDatasources": ["golang-version"],
-      "matchCurrentVersion": "1.25",
-      "matchUpdateTypes": ["minor"],
-      "enabled": false
+      "rangeStrategy": "bump",
+      "allowedVersions": "<1.28"
     }
   ]
 }
