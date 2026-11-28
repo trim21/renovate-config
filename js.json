@@ -8,7 +8,7 @@
   "packageRules": [
     {
       "matchDatasources": ["docker"],
-      "matchDepNames": ["node"],
+      "matchDepNames": ["node", "docker.io/node"],
       "matchUpdateTypes": "major",
       "enabled": false
     },

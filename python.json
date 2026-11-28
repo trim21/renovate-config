@@ -9,7 +9,7 @@
     },
     {
       "matchManagers": ["dockerfile"],
-      "matchPackageNames": ["python"],
+      "matchPackageNames": ["python", "docker.io/python"],
       "matchUpdateTypes": ["major", "minor", "bump"],
       "enabled": false
     },
