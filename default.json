@@ -138,6 +138,11 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["ghcr.io/hotio/*"],
       "versionCompatibility": "^(?<compatibility>[a-z]+)-(?<version>[0-9]+(?:[.][0-9]+)+)$"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["pgsty/silo", "docker.io/pgsty/silo"],
+      "versionCompatibility": "^(?<compatibility>[^.]+).(?<version>.*)T.*$"
     }
   ],
   "vulnerabilityAlerts": {
